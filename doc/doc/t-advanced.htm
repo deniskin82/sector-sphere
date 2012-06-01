@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Sector/Sphere Manual</title>
+<link rel="stylesheet" href="sectordoc.css" type="text/css" />
+</head>
+
+<body>
+<div class="ref_head">&nbsp;Installation</div>
+
+<h3><font color="#000080">Advanced Operations </font></h3>
+<p>At this point we assume that you have already been able to setup, configure, and operate a Sector system with more than one slaves. In this Section we explain some more advanced features to operate a production Sector system. </p>
+
+<h4>Running Multiple Masters </h4>
+<p>For better availability and to serve more clients, more master servers can be started. A new master server can be started at any time. However, it is recommended that the new server is started   when no client connects to the system, otherwise client requests may experience short delay due to the reorganization of the Sector masters. </p>
+<p>All masters must have the same configuration (master.conf, topology.conf, slaves.list, and replica.conf), except for DATA_DIRECTORY, for which each master may choose a different local directory. The masters may choose a shared NFS directory so to avoid having multiple copies of the configurations.</p>
+<p>In particular, the new master MUST NOT generate a new set of key/certificate pair. Instead, it should copy the existing one. </p>
+<p><strong></strong>Now, to start the new master, simply run <strong>./start_master IP port</strong>, where <em>IP</em> and <em>port</em> is the address of an existing master server. All Sector masters are active. They automatically synchronize file system changes and serve clients simultaneously. </p>
+<h4>Start Slaves With Command-Line Parameters </h4>
+<p>It is possible to skip slave.conf and specify all parameters at command line when you start a slave:</p>
+<div class="code">start_slave [base] [-mh master_host_ip] [-mp master_port] [-h local_storage_path] [-ds max_data_size] [-log log_level]</div>
+<p>Here &quot;base&quot; is the location of Sector $SECTOR_HOME, &quot;mh&quot; is master IP address, &quot;mp&quot; is master port number, &quot;h&quot; is the local storage path, &quot;ds&quot; is the maximum storage space that can be used for Sector, and &quot;log&quot; is the level of log output. If &quot;slave.conf&quot; exists as well, the command line parameters have higher priority and will overwrite those in slave.conf, if there is a conflict.</p>
+<p>Using command line parameters is convenient if you want to start multiple slaves on the same physical machine. You can simply specify a different &quot;h&quot; option in each slave instance. </p>
+<p>It also allows the masters to control the slaves more flexibly. In the &quot;slaves.list&quot; configuration, specific options can be applied to different slaves or group of slaves. See the example &quot;slaves.list&quot; included in the Sector release for details.</p>
+<h4>Troubleshooting Tips </h4>
+<p>Sometimes it is necessary to start and stop different set of slaves for testing, debugging, and benchmarking. The &quot;start_all&quot; command can accept a &quot;-s&quot; option to accept different slave list files. By default, it looks for $SECTOR_HOME/conf/slaves.list, but it can actually read any file specified by the &quot;-s&quot; option. By the way, you can have multiple set of slaves nodes to be started at different times. Similarly, you can also do so with &quot;stop_all&quot;. On the hand, the <a href="r-t-shutdown.htm">sector_shutdown</a> tool can let you shutdown a particular set of slaves gracefully. </p>
+<p>Both masters and slaves send running logs to the log files in DATA_DIRECTORY/.log/. The log level can be configured to print more or less details. Level (1) is default and prints critical information only. Level (9) is the most verbose level and it will print every single operation. </p>
+<p>When debugging a Sphere application, it is often helpful to see the output of each UDF. The &quot;start_all&quot; command can accept a &quot;-l&quot; option to specify a local file that will accept the output from UDFs. </p>
+</body>
+</html>

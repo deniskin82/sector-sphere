@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Sector/Sphere Manual</title>
+<link rel="stylesheet" href="sectordoc.css" type="text/css" />
+<style type="text/css">
+<!--
+.style1 {color: #FF0000}
+-->
+</style>
+</head>
+
+<body>
+<div class="ref_head">&nbsp;Installation </div>
+<h3><font color="#000080">Compiling Source Code and Starting Sector </font></h3>
+<h4>Prerequisite</h4>
+
+<p>The Sector/Sphere library is distributed with source code, example applications, and documentation. Currently the complete server side works on Linux only, while the client works on both Linux and Windows.</p>
+  <p><strong>The software is written in C++. GCC/G++ version 3.4 or above is required for Linux. Openssl development library is required (e.g., libssl-dev for Debian or openssl-devel for Fedora; Openssl for Windows can be found from <a href="http://www.slproweb.com/products/Win32OpenSSL.html" target="_blank">here</a>). </strong></p>
+  <p align="center"><img src="images/sector-arch.jpg" alt="sector arch" width="360" height="214" /></p>
+  <p>There are four parts in the software suite: the security server, the master servers, the slaves, and the clients. These four parts can be installed on the same node or over multiple nodes. However, usually each node should only host no more than one slave instance. <strong>Each slave instance requires at least 10GB free disk space by default. </strong>Debian Linux and XFS file system are recommended, although this is not a must. (For a production system, XFS is highly recommended.) </p>
+  <h4>Understanding the Code Structure</h4>
+  <p>It may be helpful to take a minute to browse the directories of the Sector source code. In the root directory it contains the Makefile and the software license. The sub-directories are explained in the table below: </p>
+  <table width="100%" border="0">
+    <tr>
+      <td width="17%"><strong>Directory</strong></td>
+      <td width="83%"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td>client</td>
+      <td>contains code for the Sector/Sphere client runtime and the client API </td>
+    </tr>
+    <tr>
+      <td>common</td>
+      <td>contains utility routines for all Sector modules </td>
+    </tr>
+    <tr>
+      <td><strong>conf</strong></td>
+      <td>contains the Sector system configuration files and security keys/certificates </td>
+    </tr>
+    <tr>
+      <td>doc</td>
+      <td>contains a copy of the manual </td>
+    </tr>
+    <tr>
+      <td><strong>examples</strong></td>
+      <td>these are programming examples, mostly for Sphere programming </td>
+    </tr>
+    <tr>
+      <td><strong>fuse</strong></td>
+      <td>the FUSE driver the Sector file system </td>
+    </tr>
+
+    <tr>
+      <td>gmp</td>
+      <td>a messaging library used for control message exchanging in the Sector/Sphere system </td>
+    </tr>
+    <tr>
+      <td><strong>include</strong></td>
+      <td>three header files required for Sector/Sphere programming </td>
+    </tr>
+    <tr>
+      <td>lib</td>
+      <td>contains complied library files for the system </td>
+    </tr>
+    <tr>
+      <td><strong>master</strong></td>
+      <td>contains code for the Sector masters </td>
+    </tr>
+    <tr>
+      <td><strong>security</strong></td>
+      <td>contains code for the security server </td>
+    </tr>
+    <tr>
+      <td><strong>slave</strong></td>
+      <td>contains code for the Sector slaves </td>
+    </tr>
+    <tr>
+      <td><strong>tools</strong></td>
+      <td>Sector tools to access the system and the data; can be used as Sector file system API example as well </td>
+    </tr>
+    <tr>
+      <td>udt</td>
+      <td>the data transfer protocol used by Sector/Sphere </td>
+    </tr>
+    <tr>
+      <td>win</td>
+      <td>Visual C++ project configuration for the Sector client Windows version</td>
+    </tr>
+  </table>
+  <h4>Compile and Install </h4>
+  <p>You may either download the tarball release or   check out the most recent code from SourceForge SVN. The source code will be   located under a directory called &quot;sector-sphere&quot;. When you are ready, follow the several steps below to install Sector.</p>
+  <ol>
+    <li>in ./sector-sphere, do <strong>make</strong> </li>
+    <li>update configuration files in ./conf, including master.conf, slave.conf, client.conf, user accounts, and slave access control list, etc. <br> 
+    <u>[</u><span class="style1">NOTE</span>: If you are upgrading to a new version, backup the configuration files and copy them back after the old version is overwritten.] </li>
+    <li>if necessary, copy the complete &quot;sector-sphere&quot; directory to all slaves and client locations (do NOT copy the keys in ./conf). </li>
+    <li>start the security server, the master, and the slaves. </li>
+  </ol>
+  <p>For Windows client, open ./sector-sphere/win/sector.sln in Visual C++ (8.0 or above) and build the software. You may prepare your own Makefile/project configuration for other C++ compliers. </p>
+  <p>If you have any questions, please post them on SourceForge <a href="https://sourceforge.net/projects/sector/forums" target="_blank">https://sourceforge.net/projects/sector/forums</a>.</p>
+
+<h4>$SECTOR_HOME</h4>
+<p>Sector uses an environment variable $SECTOR_HOME to specify the location of the home directory of the system (executables, libraries, and mostly importantly, configuration files). You may ignore this and by default $SECTOR_HOME=&quot;../&quot;, in which case Sector assumes that you run all the commands in their own directories. In addition to $SECTOR_HOME and &quot;../&quot; , Sector also looks for configuration files from &quot;/opt/sector&quot;. </p>
+<h4>Start the Servers </h4>
+<p>If this is the first time you run Sector, we suggest you run everything on the same machine. You can add more machines into the system after the simple one-node system is running successfully. </p>
+<p>The security server is located under directory $SECTOR_HOME/security. You can start the security server by running<strong> ./sserver</strong>. By default the security server will listen on port 5000, you may use <strong>./sserver &lt;port&gt; </strong>to specify a different port. There is no verbose screen output from this command, except that it tells that the server is running at the specific port. </p>
+<p>The Sector master server is in the directory of $SECTOR_HOME/master. you may start the master server by using command<strong> ./start_master</strong>. There is no verbose screen output from the master server either. A log is kept in MASTER_DATA_DIR/.log; one log file is generated per day. Multiple masters can be started if necessary. </p>
+  <p>Alternatively, you may use the <strong>./start_all</strong> command to start the master and all the   slaves. (It does NOT start the security server.) In order to use this   feature, you need to update $SECTOR_HOME<strong>/conf/slaves.list</strong> and <a href="t-password.htm">configure password-free ssh</a> to all slave nodes. Sector will read this file and use &quot;ssh&quot; to start remote slaves.</p>
+  <p>If you do not start the slaves with the ./start_all command in the master directory, you can start each slave individually with <strong>./start_slave</strong> command under $SECTOR_HOME/slave directory. This may be helpful for debugging purposes, since you can see all the output from the slaves. </p>
+  <p>After all the servers are started, you can go to #SECTOR_HOME/tools to test the system. In particular, <a href="r-t-sysinfo.htm">sector_sysinfo</a> can tell you the details of the running system so that you can verify your installation. </p>
+  <p>You may continue to read the rest articles in this section to learn more installation details. </p>
+</body>
+</html>

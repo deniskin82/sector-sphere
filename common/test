@@ -1,0 +1,1017 @@
+
+test 6
+^C==26307==
+==26307== HEAP SUMMARY:
+==26307==     in use at exit: 701,204 bytes in 3,425 blocks
+==26307==   total heap usage: 10,200 allocs, 6,775 frees, 7,346,773 bytes allocated
+==26307==
+==26307== 34 bytes in 1 blocks are possibly lost in loss record 169 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x630CE4C: sector::Client::login(std::string const&, int const&, std::string const&, std::string const&, char const*) (client.cpp:111)
+==26307==    by 0x63359F5: Sector::login(std::string const&, int const&, std::string const&, std::string const&, char const*) (clientmgmt.cpp:173)
+==26307==    by 0x62FF83E: Utility::login(Sector&) (client_conf.cpp:219)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== 39 bytes in 1 blocks are possibly lost in loss record 170 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x607BB88: SectorError::init() (constant.cpp:32)
+==26307==    by 0x630D8F9: sector::Client::init() (client.cpp:75)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==    by 0x62FF7A7: Utility::login(Sector&) (client_conf.cpp:207)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== 42 bytes in 1 blocks are possibly lost in loss record 178 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x607BC38: SectorError::init() (constant.cpp:36)
+==26307==    by 0x630D8F9: sector::Client::init() (client.cpp:75)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==    by 0x62FF7A7: Utility::login(Sector&) (client_conf.cpp:207)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== 42 bytes in 1 blocks are possibly lost in loss record 179 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x607BF3C: SectorError::init() (constant.cpp:56)
+==26307==    by 0x630D8F9: sector::Client::init() (client.cpp:75)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==    by 0x62FF7A7: Utility::login(Sector&) (client_conf.cpp:207)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== 44 bytes in 1 blocks are possibly lost in loss record 180 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x607C12A: SectorError::init() (constant.cpp:69)
+==26307==    by 0x630D8F9: sector::Client::init() (client.cpp:75)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==    by 0x62FF7A7: Utility::login(Sector&) (client_conf.cpp:207)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== 45 bytes in 1 blocks are possibly lost in loss record 181 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x607BF88: SectorError::init() (constant.cpp:58)
+==26307==    by 0x630D8F9: sector::Client::init() (client.cpp:75)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==    by 0x62FF7A7: Utility::login(Sector&) (client_conf.cpp:207)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== 45 bytes in 1 blocks are possibly lost in loss record 182 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x607C104: SectorError::init() (constant.cpp:68)
+==26307==    by 0x630D8F9: sector::Client::init() (client.cpp:75)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==    by 0x62FF7A7: Utility::login(Sector&) (client_conf.cpp:207)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== 46 bytes in 1 blocks are possibly lost in loss record 183 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x607BFD4: SectorError::init() (constant.cpp:60)
+==26307==    by 0x630D8F9: sector::Client::init() (client.cpp:75)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==    by 0x62FF7A7: Utility::login(Sector&) (client_conf.cpp:207)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== 48 bytes in 1 blocks are possibly lost in loss record 237 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x607BC90: SectorError::init() (constant.cpp:38)
+==26307==    by 0x630D8F9: sector::Client::init() (client.cpp:75)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==    by 0x62FF7A7: Utility::login(Sector&) (client_conf.cpp:207)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== 48 bytes in 1 blocks are possibly lost in loss record 238 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x607C06C: SectorError::init() (constant.cpp:64)
+==26307==    by 0x630D8F9: sector::Client::init() (client.cpp:75)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==    by 0x62FF7A7: Utility::login(Sector&) (client_conf.cpp:207)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== 49 bytes in 1 blocks are possibly lost in loss record 240 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x607BBE0: SectorError::init() (constant.cpp:34)
+==26307==    by 0x630D8F9: sector::Client::init() (client.cpp:75)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==    by 0x62FF7A7: Utility::login(Sector&) (client_conf.cpp:207)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== 49 bytes in 1 blocks are possibly lost in loss record 241 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x607BC0C: SectorError::init() (constant.cpp:35)
+==26307==    by 0x630D8F9: sector::Client::init() (client.cpp:75)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==    by 0x62FF7A7: Utility::login(Sector&) (client_conf.cpp:207)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== 49 bytes in 1 blocks are possibly lost in loss record 242 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x607BE7E: SectorError::init() (constant.cpp:51)
+==26307==    by 0x630D8F9: sector::Client::init() (client.cpp:75)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==    by 0x62FF7A7: Utility::login(Sector&) (client_conf.cpp:207)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== 50 bytes in 1 blocks are possibly lost in loss record 243 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBCFA: std::string::_Rep::_M_clone(std::allocator<char> const&, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECC980: std::string::reserve(unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECCBE2: std::string::append(char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x594D070: std::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::basic_string<char, std::char_traits<char>, 
+std::allocator<char> > const&, char const*) (basic_string.h:2124)
+==26307==    by 0x62FF5FA: Session::loadInfo(char const*) (client_conf.cpp:185)
+==26307==    by 0x62FF79B: Utility::login(Sector&) (client_conf.cpp:205)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== 50 bytes in 1 blocks are possibly lost in loss record 244 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x630CEA5: sector::Client::login(std::string const&, int const&, std::string const&, std::string const&, char const*) (client.cpp:117)
+==26307==    by 0x63359F5: Sector::login(std::string const&, int const&, std::string const&, std::string const&, char const*) (clientmgmt.cpp:173)
+==26307==    by 0x62FF83E: Utility::login(Sector&) (client_conf.cpp:219)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== 50 bytes in 1 blocks are possibly lost in loss record 245 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x607BEA4: SectorError::init() (constant.cpp:52)
+==26307==    by 0x630D8F9: sector::Client::init() (client.cpp:75)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==    by 0x62FF7A7: Utility::login(Sector&) (client_conf.cpp:207)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== 50 bytes in 1 blocks are possibly lost in loss record 246 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x607C150: SectorError::init() (constant.cpp:70)
+==26307==    by 0x630D8F9: sector::Client::init() (client.cpp:75)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==    by 0x62FF7A7: Utility::login(Sector&) (client_conf.cpp:207)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== 51 bytes in 1 blocks are possibly lost in loss record 247 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x607BD9A: SectorError::init() (constant.cpp:45)
+==26307==    by 0x630D8F9: sector::Client::init() (client.cpp:75)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==    by 0x62FF7A7: Utility::login(Sector&) (client_conf.cpp:207)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== 51 bytes in 1 blocks are possibly lost in loss record 248 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x607BF16: SectorError::init() (constant.cpp:55)
+==26307==    by 0x630D8F9: sector::Client::init() (client.cpp:75)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==    by 0x62FF7A7: Utility::login(Sector&) (client_conf.cpp:207)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== 52 bytes in 1 blocks are possibly lost in loss record 249 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x607BD74: SectorError::init() (constant.cpp:44)
+==26307==    by 0x630D8F9: sector::Client::init() (client.cpp:75)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==    by 0x62FF7A7: Utility::login(Sector&) (client_conf.cpp:207)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== 53 bytes in 1 blocks are possibly lost in loss record 250 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x607BD02: SectorError::init() (constant.cpp:41)
+==26307==    by 0x630D8F9: sector::Client::init() (client.cpp:75)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==    by 0x62FF7A7: Utility::login(Sector&) (client_conf.cpp:207)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== 54 bytes in 1 blocks are possibly lost in loss record 253 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x607BDE6: SectorError::init() (constant.cpp:47)
+==26307==    by 0x630D8F9: sector::Client::init() (client.cpp:75)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==    by 0x62FF7A7: Utility::login(Sector&) (client_conf.cpp:207)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== 54 bytes in 1 blocks are possibly lost in loss record 254 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x607BF62: SectorError::init() (constant.cpp:57)
+==26307==    by 0x630D8F9: sector::Client::init() (client.cpp:75)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==    by 0x62FF7A7: Utility::login(Sector&) (client_conf.cpp:207)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== 54 bytes in 1 blocks are possibly lost in loss record 255 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x607C0B8: SectorError::init() (constant.cpp:66)
+==26307==    by 0x630D8F9: sector::Client::init() (client.cpp:75)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==    by 0x62FF7A7: Utility::login(Sector&) (client_conf.cpp:207)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== 56 bytes in 1 blocks are possibly lost in loss record 266 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x607C046: SectorError::init() (constant.cpp:63)
+==26307==    by 0x630D8F9: sector::Client::init() (client.cpp:75)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==    by 0x62FF7A7: Utility::login(Sector&) (client_conf.cpp:207)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== 57 bytes in 1 blocks are possibly lost in loss record 267 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x607BE58: SectorError::init() (constant.cpp:50)
+==26307==    by 0x630D8F9: sector::Client::init() (client.cpp:75)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==    by 0x62FF7A7: Utility::login(Sector&) (client_conf.cpp:207)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== 58 bytes in 1 blocks are possibly lost in loss record 268 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x607BE0C: SectorError::init() (constant.cpp:48)
+==26307==    by 0x630D8F9: sector::Client::init() (client.cpp:75)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==    by 0x62FF7A7: Utility::login(Sector&) (client_conf.cpp:207)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== 59 bytes in 1 blocks are possibly lost in loss record 269 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x607BECA: SectorError::init() (constant.cpp:53)
+==26307==    by 0x630D8F9: sector::Client::init() (client.cpp:75)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==    by 0x62FF7A7: Utility::login(Sector&) (client_conf.cpp:207)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== 59 bytes in 1 blocks are possibly lost in loss record 270 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x607C020: SectorError::init() (constant.cpp:62)
+==26307==    by 0x630D8F9: sector::Client::init() (client.cpp:75)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==    by 0x62FF7A7: Utility::login(Sector&) (client_conf.cpp:207)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== 61 bytes in 1 blocks are possibly lost in loss record 271 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x6087D4F: __static_initialization_and_destruction_0(int, int) (sector.h:51)
+==26307==    by 0x6087DB7: global constructors keyed to threadpool.cpp (threadpool.cpp:64)
+==26307==    by 0x608B1D5: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==26307==    by 0x604D202: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==26307==    by 0x7FF0007B7: ???
+==26307==    by 0x400D717: ??? (in /lib/ld-2.7.so)
+==26307==    by 0x400D846: ??? (in /lib/ld-2.7.so)
+==26307==    by 0x4000A99: ??? (in /lib/ld-2.7.so)
+==26307==
+==26307== 61 bytes in 1 blocks are possibly lost in loss record 272 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x6082C3F: __static_initialization_and_destruction_0(int, int) (sector.h:51)
+==26307==    by 0x6082CA7: global constructors keyed to datachn.cpp (datachn.cpp:814)
+==26307==    by 0x608B1D5: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==26307==    by 0x604D202: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==26307==    by 0x7FF0007B7: ???
+==26307==    by 0x400D717: ??? (in /lib/ld-2.7.so)
+==26307==    by 0x400D846: ??? (in /lib/ld-2.7.so)
+==26307==    by 0x4000A99: ??? (in /lib/ld-2.7.so)
+==26307==
+==26307== 61 bytes in 1 blocks are possibly lost in loss record 273 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x6082046: __static_initialization_and_destruction_0(int, int) (sector.h:51)
+==26307==    by 0x60820D7: global constructors keyed to tcptransport.cpp (tcptransport.cpp:275)
+==26307==    by 0x608B1D5: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==26307==    by 0x604D202: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==26307==    by 0x7FF0007B7: ???
+==26307==    by 0x400D717: ??? (in /lib/ld-2.7.so)
+==26307==    by 0x400D846: ??? (in /lib/ld-2.7.so)
+==26307==    by 0x4000A99: ??? (in /lib/ld-2.7.so)
+==26307==
+==26307== 61 bytes in 1 blocks are possibly lost in loss record 274 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x6080F70: __static_initialization_and_destruction_0(int, int) (sector.h:51)
+==26307==    by 0x6080FD8: global constructors keyed to ssltransport.cpp (ssltransport.cpp:368)
+==26307==    by 0x608B1D5: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==26307==    by 0x604D202: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==26307==    by 0x7FF0007B7: ???
+==26307==    by 0x400D717: ??? (in /lib/ld-2.7.so)
+==26307==    by 0x400D846: ??? (in /lib/ld-2.7.so)
+==26307==    by 0x4000A99: ??? (in /lib/ld-2.7.so)
+==26307==
+==26307== 61 bytes in 1 blocks are possibly lost in loss record 275 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x607C8BB: __static_initialization_and_destruction_0(int, int) (sector.h:51)
+==26307==    by 0x607C923: global constructors keyed to routing.cpp (routing.cpp:222)
+==26307==    by 0x608B1D5: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==26307==    by 0x604D202: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==26307==    by 0x7FF0007B7: ???
+==26307==    by 0x400D717: ??? (in /lib/ld-2.7.so)
+==26307==    by 0x400D846: ??? (in /lib/ld-2.7.so)
+==26307==    by 0x4000A99: ??? (in /lib/ld-2.7.so)
+==26307==
+==26307== 61 bytes in 1 blocks are possibly lost in loss record 276 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x607B9D7: __static_initialization_and_destruction_0(int, int) (sector.h:51)
+==26307==    by 0x607BA68: global constructors keyed to constant.cpp (constant.cpp:82)
+==26307==    by 0x608B1D5: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==26307==    by 0x604D202: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==26307==    by 0x7FF0007B7: ???
+==26307==    by 0x400D717: ??? (in /lib/ld-2.7.so)
+==26307==    by 0x400D846: ??? (in /lib/ld-2.7.so)
+==26307==    by 0x4000A99: ??? (in /lib/ld-2.7.so)
+==26307==
+==26307== 61 bytes in 1 blocks are possibly lost in loss record 277 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x6079151: __static_initialization_and_destruction_0(int, int) (sector.h:51)
+==26307==    by 0x60791B9: global constructors keyed to log.cpp (log.cpp:238)
+==26307==    by 0x608B1D5: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==26307==    by 0x604D202: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==26307==    by 0x7FF0007B7: ???
+==26307==    by 0x400D717: ??? (in /lib/ld-2.7.so)
+==26307==    by 0x400D846: ??? (in /lib/ld-2.7.so)
+==26307==    by 0x4000A99: ??? (in /lib/ld-2.7.so)
+==26307==
+==26307== 61 bytes in 1 blocks are possibly lost in loss record 278 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x607473A: __static_initialization_and_destruction_0(int, int) (sector.h:51)
+==26307==    by 0x60747A2: global constructors keyed to topology.cpp (topology.cpp:424)
+==26307==    by 0x608B1D5: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==26307==    by 0x604D202: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==26307==    by 0x7FF0007B7: ???
+==26307==    by 0x400D717: ??? (in /lib/ld-2.7.so)
+==26307==    by 0x400D846: ??? (in /lib/ld-2.7.so)
+==26307==    by 0x4000A99: ??? (in /lib/ld-2.7.so)
+==26307==
+==26307== 61 bytes in 1 blocks are possibly lost in loss record 279 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x606CA43: __static_initialization_and_destruction_0(int, int) (sector.h:51)
+==26307==    by 0x606CAAB: global constructors keyed to memobj.cpp (memobj.cpp:124)
+==26307==    by 0x608B1D5: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==26307==    by 0x604D202: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==26307==    by 0x7FF0007B7: ???
+==26307==    by 0x400D717: ??? (in /lib/ld-2.7.so)
+==26307==    by 0x400D846: ??? (in /lib/ld-2.7.so)
+==26307==    by 0x4000A99: ??? (in /lib/ld-2.7.so)
+==26307==
+==26307== 61 bytes in 1 blocks are possibly lost in loss record 280 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x6061B40: __static_initialization_and_destruction_0(int, int) (sector.h:51)
+==26307==    by 0x6061BA8: global constructors keyed to index.cpp (index.cpp:1157)
+==26307==    by 0x608B1D5: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==26307==    by 0x604D202: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==26307==    by 0x7FF0007B7: ???
+==26307==    by 0x400D717: ??? (in /lib/ld-2.7.so)
+==26307==    by 0x400D846: ??? (in /lib/ld-2.7.so)
+==26307==    by 0x4000A99: ??? (in /lib/ld-2.7.so)
+==26307==
+==26307== 61 bytes in 1 blocks are possibly lost in loss record 281 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x605E50B: __static_initialization_and_destruction_0(int, int) (sector.h:51)
+==26307==    by 0x605E5AC: global constructors keyed to meta.cpp (meta.cpp:212)
+==26307==    by 0x608B1D5: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==26307==    by 0x604D202: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==26307==    by 0x7FF0007B7: ???
+==26307==    by 0x400D717: ??? (in /lib/ld-2.7.so)
+==26307==    by 0x400D846: ??? (in /lib/ld-2.7.so)
+==26307==    by 0x4000A99: ??? (in /lib/ld-2.7.so)
+==26307==
+==26307== 61 bytes in 1 blocks are possibly lost in loss record 282 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x605D22B: __static_initialization_and_destruction_0(int, int) (sector.h:51)
+==26307==    by 0x605D293: global constructors keyed to snode.cpp (snode.cpp:254)
+==26307==    by 0x608B1D5: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==26307==    by 0x604D202: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==26307==    by 0x7FF0007B7: ???
+==26307==    by 0x400D717: ??? (in /lib/ld-2.7.so)
+==26307==    by 0x400D846: ??? (in /lib/ld-2.7.so)
+==26307==    by 0x4000A99: ??? (in /lib/ld-2.7.so)
+==26307==
+==26307== 61 bytes in 1 blocks are possibly lost in loss record 283 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x605CCE3: __static_initialization_and_destruction_0(int, int) (sector.h:51)
+==26307==    by 0x605CD4B: global constructors keyed to sfopt.cpp (sfopt.cpp:71)
+==26307==    by 0x608B1D5: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==26307==    by 0x604D202: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==26307==    by 0x7FF0007B7: ???
+==26307==    by 0x400D717: ??? (in /lib/ld-2.7.so)
+==26307==    by 0x400D846: ??? (in /lib/ld-2.7.so)
+==26307==    by 0x4000A99: ??? (in /lib/ld-2.7.so)
+==26307==
+==26307== 61 bytes in 1 blocks are possibly lost in loss record 284 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x605A12F: __static_initialization_and_destruction_0(int, int) (sector.h:51)
+==26307==    by 0x605A1C0: global constructors keyed to conf.cpp (conf.cpp:363)
+==26307==    by 0x608B1D5: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==26307==    by 0x604D202: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==26307==    by 0x7FF0007B7: ???
+==26307==    by 0x400D717: ??? (in /lib/ld-2.7.so)
+==26307==    by 0x400D846: ??? (in /lib/ld-2.7.so)
+==26307==    by 0x4000A99: ??? (in /lib/ld-2.7.so)
+==26307==
+==26307== 61 bytes in 1 blocks are possibly lost in loss record 285 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x6055613: __static_initialization_and_destruction_0(int, int) (sector.h:51)
+==26307==    by 0x605567B: global constructors keyed to osportable.cpp (osportable.cpp:591)
+==26307==    by 0x608B1D5: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==26307==    by 0x604D202: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==26307==    by 0x7FF0007B7: ???
+==26307==    by 0x400D717: ??? (in /lib/ld-2.7.so)
+==26307==    by 0x400D846: ??? (in /lib/ld-2.7.so)
+==26307==    by 0x4000A99: ??? (in /lib/ld-2.7.so)
+==26307==
+==26307== 61 bytes in 1 blocks are possibly lost in loss record 286 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x5B73FBE: __static_initialization_and_destruction_0(int, int) (sector.h:51)
+==26307==    by 0x5B74036: global constructors keyed to gmp.cpp (gmp.cpp:1098)
+==26307==    by 0x5B7F9C5: ??? (in /home/yunhong/sector-sphere/lib/librpc.so)
+==26307==    by 0x5B6D6FA: ??? (in /home/yunhong/sector-sphere/lib/librpc.so)
+==26307==    by 0x7FF0007B7: ???
+==26307==    by 0x400D717: ??? (in /lib/ld-2.7.so)
+==26307==    by 0x400D846: ??? (in /lib/ld-2.7.so)
+==26307==    by 0x4000A99: ??? (in /lib/ld-2.7.so)
+==26307==
+==26307== 61 bytes in 1 blocks are possibly lost in loss record 287 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x6334AFB: __static_initialization_and_destruction_0(int, int) (sector.h:51)
+==26307==    by 0x6334B63: global constructors keyed to clientmgmt.cpp (clientmgmt.cpp:508)
+==26307==    by 0x6337BF5: ??? (in /home/yunhong/sector-sphere/lib/libclient.so)
+==26307==    by 0x62F5E32: ??? (in /home/yunhong/sector-sphere/lib/libclient.so)
+==26307==    by 0x7FF0007B7: ???
+==26307==    by 0x400D717: ??? (in /lib/ld-2.7.so)
+==26307==    by 0x400D846: ??? (in /lib/ld-2.7.so)
+==26307==    by 0x4000A99: ??? (in /lib/ld-2.7.so)
+==26307==
+==26307== 61 bytes in 1 blocks are possibly lost in loss record 288 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x631E043: __static_initialization_and_destruction_0(int, int) (sector.h:51)
+==26307==    by 0x631E0D4: global constructors keyed to dcclient.cpp (dcclient.cpp:1506)
+==26307==    by 0x6337BF5: ??? (in /home/yunhong/sector-sphere/lib/libclient.so)
+==26307==    by 0x62F5E32: ??? (in /home/yunhong/sector-sphere/lib/libclient.so)
+==26307==    by 0x7FF0007B7: ???
+==26307==    by 0x400D717: ??? (in /lib/ld-2.7.so)
+==26307==    by 0x400D846: ??? (in /lib/ld-2.7.so)
+==26307==    by 0x4000A99: ??? (in /lib/ld-2.7.so)
+==26307==
+==26307== 61 bytes in 1 blocks are possibly lost in loss record 289 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x6316998: __static_initialization_and_destruction_0(int, int) (sector.h:51)
+==26307==    by 0x6316A00: global constructors keyed to fsclient.cpp (fsclient.cpp:1005)
+==26307==    by 0x6337BF5: ??? (in /home/yunhong/sector-sphere/lib/libclient.so)
+==26307==    by 0x62F5E32: ??? (in /home/yunhong/sector-sphere/lib/libclient.so)
+==26307==    by 0x7FF0007B7: ???
+==26307==    by 0x400D717: ??? (in /lib/ld-2.7.so)
+==26307==    by 0x400D846: ??? (in /lib/ld-2.7.so)
+==26307==    by 0x4000A99: ??? (in /lib/ld-2.7.so)
+==26307==
+==26307== 61 bytes in 1 blocks are possibly lost in loss record 290 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x6307F2C: __static_initialization_and_destruction_0(int, int) (sector.h:51)
+==26307==    by 0x6307FBD: global constructors keyed to client.cpp (client.cpp:958)
+==26307==    by 0x6337BF5: ??? (in /home/yunhong/sector-sphere/lib/libclient.so)
+==26307==    by 0x62F5E32: ??? (in /home/yunhong/sector-sphere/lib/libclient.so)
+==26307==    by 0x7FF0007B7: ???
+==26307==    by 0x400D717: ??? (in /lib/ld-2.7.so)
+==26307==    by 0x400D846: ??? (in /lib/ld-2.7.so)
+==26307==    by 0x4000A99: ??? (in /lib/ld-2.7.so)
+==26307==
+==26307== 61 bytes in 1 blocks are possibly lost in loss record 291 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x6300FA2: __static_initialization_and_destruction_0(int, int) (sector.h:51)
+==26307==    by 0x630100A: global constructors keyed to fscache.cpp (fscache.cpp:402)
+==26307==    by 0x6337BF5: ??? (in /home/yunhong/sector-sphere/lib/libclient.so)
+==26307==    by 0x62F5E32: ??? (in /home/yunhong/sector-sphere/lib/libclient.so)
+==26307==    by 0x7FF0007B7: ???
+==26307==    by 0x400D717: ??? (in /lib/ld-2.7.so)
+==26307==    by 0x400D846: ??? (in /lib/ld-2.7.so)
+==26307==    by 0x4000A99: ??? (in /lib/ld-2.7.so)
+==26307==
+==26307== 61 bytes in 1 blocks are possibly lost in loss record 292 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x62FE974: __static_initialization_and_destruction_0(int, int) (sector.h:51)
+==26307==    by 0x62FE9DC: global constructors keyed to client_conf.cpp (client_conf.cpp:246)
+==26307==    by 0x6337BF5: ??? (in /home/yunhong/sector-sphere/lib/libclient.so)
+==26307==    by 0x62F5E32: ??? (in /home/yunhong/sector-sphere/lib/libclient.so)
+==26307==    by 0x7FF0007B7: ???
+==26307==    by 0x400D717: ??? (in /lib/ld-2.7.so)
+==26307==    by 0x400D846: ??? (in /lib/ld-2.7.so)
+==26307==    by 0x4000A99: ??? (in /lib/ld-2.7.so)
+==26307==
+==26307== 61 bytes in 1 blocks are possibly lost in loss record 293 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x5949DDC: __static_initialization_and_destruction_0(int, int) (sector.h:51)
+==26307==    by 0x5949E44: global constructors keyed to filesrc.cpp (filesrc.cpp:341)
+==26307==    by 0x594FB45: ??? (in /home/yunhong/sector-sphere/lib/libsecurity.so)
+==26307==    by 0x5947472: ??? (in /home/yunhong/sector-sphere/lib/libsecurity.so)
+==26307==    by 0x7FF0007B7: ???
+==26307==    by 0x400D717: ??? (in /lib/ld-2.7.so)
+==26307==    by 0x400D846: ??? (in /lib/ld-2.7.so)
+==26307==    by 0x4000A99: ??? (in /lib/ld-2.7.so)
+==26307==
+==26307== 61 bytes in 1 blocks are possibly lost in loss record 294 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x5948C35: __static_initialization_and_destruction_0(int, int) (sector.h:51)
+==26307==    by 0x5948C9D: global constructors keyed to security.cpp (security.cpp:266)
+==26307==    by 0x594FB45: ??? (in /home/yunhong/sector-sphere/lib/libsecurity.so)
+==26307==    by 0x5947472: ??? (in /home/yunhong/sector-sphere/lib/libsecurity.so)
+==26307==    by 0x7FF0007B7: ???
+==26307==    by 0x400D717: ??? (in /lib/ld-2.7.so)
+==26307==    by 0x400D846: ??? (in /lib/ld-2.7.so)
+==26307==    by 0x4000A99: ??? (in /lib/ld-2.7.so)
+==26307==
+==26307== 61 bytes in 1 blocks are possibly lost in loss record 295 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x400D6B: __static_initialization_and_destruction_0(int, int) (sector.h:51)
+==26307==    by 0x400DE8: global constructors keyed to main (stress.cpp:20)
+==26307==    by 0x400F25: ??? (in /home/yunhong/sector-sphere/test/stress)
+==26307==    by 0x400B02: ??? (in /home/yunhong/sector-sphere/test/stress)
+==26307==    by 0x7FF0006AF: ???
+==26307==    by 0x400EB4: __libc_csu_init (in /home/yunhong/sector-sphere/test/stress)
+==26307==    by 0x6A0C131: (below main) (in /lib/libc-2.7.so)
+==26307==
+==26307== 62 bytes in 1 blocks are possibly lost in loss record 296 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x607BEF0: SectorError::init() (constant.cpp:54)
+==26307==    by 0x630D8F9: sector::Client::init() (client.cpp:75)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==    by 0x62FF7A7: Utility::login(Sector&) (client_conf.cpp:207)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== 64 bytes in 1 blocks are possibly lost in loss record 304 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x607C092: SectorError::init() (constant.cpp:65)
+==26307==    by 0x630D8F9: sector::Client::init() (client.cpp:75)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==    by 0x62FF7A7: Utility::login(Sector&) (client_conf.cpp:207)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== 66 bytes in 2 blocks are possibly lost in loss record 305 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x62FEE00: ClientConf::init(std::string const&) (client_conf.cpp:80)
+==26307==    by 0x62FF312: Session::loadInfo(char const*) (client_conf.cpp:143)
+==26307==    by 0x62FF79B: Utility::login(Sector&) (client_conf.cpp:205)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== 67 bytes in 1 blocks are possibly lost in loss record 306 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x607BD4E: SectorError::init() (constant.cpp:43)
+==26307==    by 0x630D8F9: sector::Client::init() (client.cpp:75)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==    by 0x62FF7A7: Utility::login(Sector&) (client_conf.cpp:207)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== 67 bytes in 1 blocks are possibly lost in loss record 307 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x607BDC0: SectorError::init() (constant.cpp:46)
+==26307==    by 0x630D8F9: sector::Client::init() (client.cpp:75)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==    by 0x62FF7A7: Utility::login(Sector&) (client_conf.cpp:207)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== 67 bytes in 1 blocks are possibly lost in loss record 308 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x607C0DE: SectorError::init() (constant.cpp:67)
+==26307==    by 0x630D8F9: sector::Client::init() (client.cpp:75)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==    by 0x62FF7A7: Utility::login(Sector&) (client_conf.cpp:207)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== 68 bytes in 1 blocks are possibly lost in loss record 309 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x607BC64: SectorError::init() (constant.cpp:37)
+==26307==    by 0x630D8F9: sector::Client::init() (client.cpp:75)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==    by 0x62FF7A7: Utility::login(Sector&) (client_conf.cpp:207)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== 69 bytes in 1 blocks are possibly lost in loss record 310 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x607BCB6: SectorError::init() (constant.cpp:39)
+==26307==    by 0x630D8F9: sector::Client::init() (client.cpp:75)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==    by 0x62FF7A7: Utility::login(Sector&) (client_conf.cpp:207)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== 69 bytes in 1 blocks are possibly lost in loss record 311 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x607BE32: SectorError::init() (constant.cpp:49)
+==26307==    by 0x630D8F9: sector::Client::init() (client.cpp:75)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==    by 0x62FF7A7: Utility::login(Sector&) (client_conf.cpp:207)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== 71 bytes in 1 blocks are possibly lost in loss record 314 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x607BFAE: SectorError::init() (constant.cpp:59)
+==26307==    by 0x630D8F9: sector::Client::init() (client.cpp:75)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==    by 0x62FF7A7: Utility::login(Sector&) (client_conf.cpp:207)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== 72 bytes in 1 blocks are possibly lost in loss record 320 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x607BCDC: SectorError::init() (constant.cpp:40)
+==26307==    by 0x630D8F9: sector::Client::init() (client.cpp:75)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==    by 0x62FF7A7: Utility::login(Sector&) (client_conf.cpp:207)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== 72 bytes in 1 blocks are possibly lost in loss record 321 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x607BFFA: SectorError::init() (constant.cpp:61)
+==26307==    by 0x630D8F9: sector::Client::init() (client.cpp:75)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==    by 0x62FF7A7: Utility::login(Sector&) (client_conf.cpp:207)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== 82 bytes in 1 blocks are possibly lost in loss record 324 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x607BD28: SectorError::init() (constant.cpp:42)
+==26307==    by 0x630D8F9: sector::Client::init() (client.cpp:75)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==    by 0x62FF7A7: Utility::login(Sector&) (client_conf.cpp:207)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== 95 bytes in 1 blocks are possibly lost in loss record 325 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x607BBB4: SectorError::init() (constant.cpp:33)
+==26307==    by 0x630D8F9: sector::Client::init() (client.cpp:75)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==    by 0x62FF7A7: Utility::login(Sector&) (client_conf.cpp:207)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== 106 bytes in 3 blocks are possibly lost in loss record 348 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x605A262: ConfParser::getToken(char*, std::string&) (conf.cpp:199)
+==26307==    by 0x605AA87: ConfParser::getNextParam(Param&) (conf.cpp:159)
+==26307==    by 0x62FF189: ClientConf::init(std::string const&) (client_conf.cpp:59)
+==26307==    by 0x62FF312: Session::loadInfo(char const*) (client_conf.cpp:143)
+==26307==    by 0x62FF79B: Utility::login(Sector&) (client_conf.cpp:205)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== 288 bytes in 1 blocks are possibly lost in loss record 428 of 540
+==26307==    at 0x4C20B0F: calloc (vg_replace_malloc.c:467)
+==26307==    by 0x40108BE: _dl_allocate_tls (in /lib/ld-2.7.so)
+==26307==    by 0x51396BA: pthread_create@@GLIBC_2.2.5 (in /lib/libpthread-2.7.so)
+==26307==    by 0x5DE7BF7: CUDTUnited::startup() (api.cpp:207)
+==26307==    by 0x5DE7C27: CUDT::startup() (api.cpp:1550)
+==26307==    by 0x5DE7C32: UDT::startup() (api.cpp:2159)
+==26307==    by 0x6080DB8: sector::UDTTransport::initialize() (udttransport.cpp:55)
+==26307==    by 0x630D8F4: sector::Client::init() (client.cpp:73)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==    by 0x62FF7A7: Utility::login(Sector&) (client_conf.cpp:207)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== 288 bytes in 1 blocks are possibly lost in loss record 429 of 540
+==26307==    at 0x4C20B0F: calloc (vg_replace_malloc.c:467)
+==26307==    by 0x40108BE: _dl_allocate_tls (in /lib/ld-2.7.so)
+==26307==    by 0x51396BA: pthread_create@@GLIBC_2.2.5 (in /lib/libpthread-2.7.so)
+==26307==    by 0x5DC666E: CSndQueue::init(CChannel const*, CTimer const*) (queue.cpp:500)
+==26307==    by 0x5DDFEC4: CUDTUnited::updateMux(CUDTSocket*, sockaddr const*, int const*) (api.cpp:1430)
+==26307==    by 0x5DE58C5: CUDTUnited::bind(int, sockaddr const*, int const&) (api.cpp:524)
+==26307==    by 0x5DE595D: CUDT::bind(int, sockaddr const*, int) (api.cpp:1588)
+==26307==    by 0x5DE5B91: UDT::bind(int, sockaddr const*, int) (api.cpp:2174)
+==26307==    by 0x6080C39: sector::UDTTransport::open(int&, bool, bool) (udttransport.cpp:88)
+==26307==    by 0x5B735B8: CGMP::init(int const&) (gmp.cpp:176)
+==26307==    by 0x630D948: sector::Client::init() (client.cpp:81)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==
+==26307== 288 bytes in 1 blocks are possibly lost in loss record 430 of 540
+==26307==    at 0x4C20B0F: calloc (vg_replace_malloc.c:467)
+==26307==    by 0x40108BE: _dl_allocate_tls (in /lib/ld-2.7.so)
+==26307==    by 0x51396BA: pthread_create@@GLIBC_2.2.5 (in /lib/libpthread-2.7.so)
+==26307==    by 0x5DC640E: CRcvQueue::init(int const&, int const&, int const&, int const&, CChannel const*, CTimer const*) (queue.cpp:956)
+==26307==    by 0x5DDFF89: CUDTUnited::updateMux(CUDTSocket*, sockaddr const*, int const*) (api.cpp:1432)
+==26307==    by 0x5DE58C5: CUDTUnited::bind(int, sockaddr const*, int const&) (api.cpp:524)
+==26307==    by 0x5DE595D: CUDT::bind(int, sockaddr const*, int) (api.cpp:1588)
+==26307==    by 0x5DE5B91: UDT::bind(int, sockaddr const*, int) (api.cpp:2174)
+==26307==    by 0x6080C39: sector::UDTTransport::open(int&, bool, bool) (udttransport.cpp:88)
+==26307==    by 0x5B735B8: CGMP::init(int const&) (gmp.cpp:176)
+==26307==    by 0x630D948: sector::Client::init() (client.cpp:81)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==
+==26307== 288 bytes in 1 blocks are possibly lost in loss record 431 of 540
+==26307==    at 0x4C20B0F: calloc (vg_replace_malloc.c:467)
+==26307==    by 0x40108BE: _dl_allocate_tls (in /lib/ld-2.7.so)
+==26307==    by 0x51396BA: pthread_create@@GLIBC_2.2.5 (in /lib/libpthread-2.7.so)
+==26307==    by 0x5B73715: CGMP::init(int const&) (gmp.cpp:203)
+==26307==    by 0x630D948: sector::Client::init() (client.cpp:81)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==    by 0x62FF7A7: Utility::login(Sector&) (client_conf.cpp:207)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== 288 bytes in 1 blocks are possibly lost in loss record 432 of 540
+==26307==    at 0x4C20B0F: calloc (vg_replace_malloc.c:467)
+==26307==    by 0x40108BE: _dl_allocate_tls (in /lib/ld-2.7.so)
+==26307==    by 0x51396BA: pthread_create@@GLIBC_2.2.5 (in /lib/libpthread-2.7.so)
+==26307==    by 0x5B73732: CGMP::init(int const&) (gmp.cpp:204)
+==26307==    by 0x630D948: sector::Client::init() (client.cpp:81)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==    by 0x62FF7A7: Utility::login(Sector&) (client_conf.cpp:207)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== 288 bytes in 1 blocks are possibly lost in loss record 433 of 540
+==26307==    at 0x4C20B0F: calloc (vg_replace_malloc.c:467)
+==26307==    by 0x40108BE: _dl_allocate_tls (in /lib/ld-2.7.so)
+==26307==    by 0x51396BA: pthread_create@@GLIBC_2.2.5 (in /lib/libpthread-2.7.so)
+==26307==    by 0x5DC666E: CSndQueue::init(CChannel const*, CTimer const*) (queue.cpp:500)
+==26307==    by 0x5DDFEC4: CUDTUnited::updateMux(CUDTSocket*, sockaddr const*, int const*) (api.cpp:1430)
+==26307==    by 0x5DE58C5: CUDTUnited::bind(int, sockaddr const*, int const&) (api.cpp:524)
+==26307==    by 0x5DE595D: CUDT::bind(int, sockaddr const*, int) (api.cpp:1588)
+==26307==    by 0x5DE5B91: UDT::bind(int, sockaddr const*, int) (api.cpp:2174)
+==26307==    by 0x6080C39: sector::UDTTransport::open(int&, bool, bool) (udttransport.cpp:88)
+==26307==    by 0x6085967: sector::DataChn::init(std::string const&, int&) (datachn.cpp:82)
+==26307==    by 0x630D99D: sector::Client::init() (client.cpp:85)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==
+==26307== 288 bytes in 1 blocks are possibly lost in loss record 434 of 540
+==26307==    at 0x4C20B0F: calloc (vg_replace_malloc.c:467)
+==26307==    by 0x40108BE: _dl_allocate_tls (in /lib/ld-2.7.so)
+==26307==    by 0x51396BA: pthread_create@@GLIBC_2.2.5 (in /lib/libpthread-2.7.so)
+==26307==    by 0x630DA97: sector::Client::init() (client.cpp:90)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==    by 0x62FF7A7: Utility::login(Sector&) (client_conf.cpp:207)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== 537 bytes in 1 blocks are possibly lost in loss record 462 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECBCFA: std::string::_Rep::_M_clone(std::allocator<char> const&, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECC980: std::string::reserve(unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4EC6829: std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::overflow(int) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4ECAB37: std::basic_streambuf<char, std::char_traits<char> >::xsputn(char const*, long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4EB07EC: std::ostreambuf_iterator<char, std::char_traits<char> > std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::_M_insert_int<long>(std::ostreambuf_iterator<char, 
+std::char_traits<char> >, std::ios_base&, char, long) const (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4EB0906: std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::do_put(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const (in 
+/usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x4EC234B: std::ostream& std::ostream::_M_insert<long>(long) (in /usr/lib/libstdc++.so.6.0.10)
+==26307==    by 0x6081615: sector::SSLTransport::connect(char const*, int const&) (ssltransport.cpp:211)
+==26307==    by 0x630CF91: sector::Client::login(std::string const&, int const&, std::string const&, std::string const&, char const*) (client.cpp:130)
+==26307==    by 0x63359F5: Sector::login(std::string const&, int const&, std::string const&, std::string const&, char const*) (clientmgmt.cpp:173)
+==26307==
+==26307== 576 bytes in 2 blocks are possibly lost in loss record 465 of 540
+==26307==    at 0x4C20B0F: calloc (vg_replace_malloc.c:467)
+==26307==    by 0x40108BE: _dl_allocate_tls (in /lib/ld-2.7.so)
+==26307==    by 0x51396BA: pthread_create@@GLIBC_2.2.5 (in /lib/libpthread-2.7.so)
+==26307==    by 0x5DC640E: CRcvQueue::init(int const&, int const&, int const&, int const&, CChannel const*, CTimer const*) (queue.cpp:956)
+==26307==    by 0x5DDFF89: CUDTUnited::updateMux(CUDTSocket*, sockaddr const*, int const*) (api.cpp:1432)
+==26307==    by 0x5DE58C5: CUDTUnited::bind(int, sockaddr const*, int const&) (api.cpp:524)
+==26307==    by 0x5DE595D: CUDT::bind(int, sockaddr const*, int) (api.cpp:1588)
+==26307==    by 0x5DE5B91: UDT::bind(int, sockaddr const*, int) (api.cpp:2174)
+==26307==    by 0x6080C39: sector::UDTTransport::open(int&, bool, bool) (udttransport.cpp:88)
+==26307==    by 0x6085967: sector::DataChn::init(std::string const&, int&) (datachn.cpp:82)
+==26307==    by 0x630D99D: sector::Client::init() (client.cpp:85)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==
+==26307== 828 (192 direct, 636 indirect) bytes in 6 blocks are definitely lost in loss record 478 of 540
+==26307==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==26307==    by 0x5B72DB6: CGMP::UDPsend(char const*, int const&, int&, char const*, int const&, bool const&) (gmp.cpp:280)
+==26307==    by 0x5B72F15: CGMP::sendto(std::string const&, int const&, int&, CUserMessage const*) (gmp.cpp:261)
+==26307==    by 0x5B733F4: CGMP::rpc(std::string const&, int const&, CUserMessage*, CUserMessage*) (gmp.cpp:954)
+==26307==    by 0x6308DE3: sector::Client::logout() (client.cpp:306)
+==26307==    by 0x633597C: Sector::logout() (clientmgmt.cpp:179)
+==26307==    by 0x62FE9F4: Utility::logout(Sector&) (client_conf.cpp:243)
+==26307==    by 0x400E1B: main (stress.cpp:14)
+==26307==
+==26307== 3,336 bytes in 1 blocks are possibly lost in loss record 517 of 540
+==26307==    at 0x4C21D86: operator new[](unsigned long) (vg_replace_malloc.c:305)
+==26307==    by 0x5DC557B: CUnitQueue::init(int const&, int const&, int const&) (queue.cpp:94)
+==26307==    by 0x5DC630A: CRcvQueue::init(int const&, int const&, int const&, int const&, CChannel const*, CTimer const*) (queue.cpp:944)
+==26307==    by 0x5DDFF89: CUDTUnited::updateMux(CUDTSocket*, sockaddr const*, int const*) (api.cpp:1432)
+==26307==    by 0x5DE58C5: CUDTUnited::bind(int, sockaddr const*, int const&) (api.cpp:524)
+==26307==    by 0x5DE595D: CUDT::bind(int, sockaddr const*, int) (api.cpp:1588)
+==26307==    by 0x5DE5B91: UDT::bind(int, sockaddr const*, int) (api.cpp:2174)
+==26307==    by 0x6080C39: sector::UDTTransport::open(int&, bool, bool) (udttransport.cpp:88)
+==26307==    by 0x5B735B8: CGMP::init(int const&) (gmp.cpp:176)
+==26307==    by 0x630D948: sector::Client::init() (client.cpp:81)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==    by 0x62FF7A7: Utility::login(Sector&) (client_conf.cpp:207)
+==26307==
+==26307== 3,336 bytes in 1 blocks are possibly lost in loss record 518 of 540
+==26307==    at 0x4C21D86: operator new[](unsigned long) (vg_replace_malloc.c:305)
+==26307==    by 0x5DC557B: CUnitQueue::init(int const&, int const&, int const&) (queue.cpp:94)
+==26307==    by 0x5DC630A: CRcvQueue::init(int const&, int const&, int const&, int const&, CChannel const*, CTimer const*) (queue.cpp:944)
+==26307==    by 0x5DDFF89: CUDTUnited::updateMux(CUDTSocket*, sockaddr const*, int const*) (api.cpp:1432)
+==26307==    by 0x5DE58C5: CUDTUnited::bind(int, sockaddr const*, int const&) (api.cpp:524)
+==26307==    by 0x5DE595D: CUDT::bind(int, sockaddr const*, int) (api.cpp:1588)
+==26307==    by 0x5DE5B91: UDT::bind(int, sockaddr const*, int) (api.cpp:2174)
+==26307==    by 0x6080C39: sector::UDTTransport::open(int&, bool, bool) (udttransport.cpp:88)
+==26307==    by 0x6085967: sector::DataChn::init(std::string const&, int&) (datachn.cpp:82)
+==26307==    by 0x630D99D: sector::Client::init() (client.cpp:85)
+==26307==    by 0x6335F58: Sector::init() (clientmgmt.cpp:150)
+==26307==    by 0x62FF7A7: Utility::login(Sector&) (client_conf.cpp:207)
+==26307==
+==26307== 30,940 (1,120 direct, 29,820 indirect) bytes in 7 blocks are definitely lost in loss record 531 of 540
+==26307==    at 0x4C217EB: malloc (vg_replace_malloc.c:236)
+==26307==    by 0x56178F2: CRYPTO_malloc (in /usr/lib/libcrypto.so.0.9.8)
+==26307==    by 0x5694D15: ??? (in /usr/lib/libcrypto.so.0.9.8)
+==26307==    by 0x5698224: ASN1_item_ex_d2i (in /usr/lib/libcrypto.so.0.9.8)
+==26307==    by 0x56982F3: ASN1_item_d2i (in /usr/lib/libcrypto.so.0.9.8)
+==26307==    by 0x53703CD: ssl3_get_server_certificate (in /usr/lib/libssl.so.0.9.8)
+==26307==    by 0x537181C: ssl3_connect (in /usr/lib/libssl.so.0.9.8)
+==26307==    by 0x6081797: sector::SSLTransport::connect(char const*, int const&) (ssltransport.cpp:229)
+==26307==    by 0x630CF91: sector::Client::login(std::string const&, int const&, std::string const&, std::string const&, char const*) (client.cpp:130)
+==26307==    by 0x63359F5: Sector::login(std::string const&, int const&, std::string const&, std::string const&, char const*) (clientmgmt.cpp:173)
+==26307==    by 0x62FF83E: Utility::login(Sector&) (client_conf.cpp:219)
+==26307==    by 0x400E12: main (stress.cpp:13)
+==26307==
+==26307== LEAK SUMMARY:
+==26307==    definitely lost: 1,312 bytes in 13 blocks
+==26307==    indirectly lost: 30,456 bytes in 886 blocks
+==26307==      possibly lost: 13,861 bytes in 84 blocks
+==26307==    still reachable: 655,575 bytes in 2,442 blocks
+==26307==         suppressed: 0 bytes in 0 blocks
+==26307== Reachable blocks (those to which a pointer was found) are not shown.
+==26307== To see them, rerun with: --leak-check=full --show-reachable=yes
+==26307==
+==26307== For counts of detected and suppressed errors, rerun with: -v
+==26307== ERROR SUMMARY: 106 errors from 85 contexts (suppressed: 12 from 12)
+

@@ -1,0 +1,6 @@
+Sun Nov 21 22:14:39 2010	Sector slave started.
+Sun Nov 21 22:15:14 2010	opened file /f2 from 127.0.0.1:38884
+Sun Nov 21 22:15:14 2010	rendezvous connect source 127.0.0.1 38884 /home/u2/yunhong/personal/sector-sphere/tests/slave23_conf/data//f2
+Sun Nov 21 22:15:39 2010	opened file /f2 from 131.193.181.153:37108
+Sun Nov 21 22:15:39 2010	rendezvous connect source 131.193.181.153 37108 /home/u2/yunhong/personal/sector-sphere/tests/slave23_conf/data//f2
+Sun Nov 21 22:18:43 2010	Sector slave started.

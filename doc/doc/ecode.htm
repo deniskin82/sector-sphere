@@ -1,0 +1,221 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Sector/Sphere Manual</title>
+<link rel="stylesheet" href="sectordoc.css" type="text/css" />
+</head>
+
+<body>
+<div class="ref_head">&nbsp;Reference: Error Codes </div>
+
+<h3><font color="#000080">Sector/Sphere Error Codes List </font></h3>
+
+<p>Sector returns negative value when error occurs. The value indicates the type of error.</p>
+
+<table width="100%" border="1" cellpadding="1" cellspacing="0" bordercolor="#CCCCCC">
+  <tr>
+    <td width="15%" class="table_headline"><strong>Error Name</strong></td>
+    <td width="15%" class="table_headline"><strong>Error Code</strong></td>
+    <td width="70%" class="table_headline"><strong>Comment</strong></td>
+  </tr>
+  <tr>
+    <td>E_UNKNOWN</td>
+    <td>-1</td>
+    <td>undefined error</td>
+  </tr>
+  <tr>
+    <td>E_PERMISSION</td>
+    <td>-1001</td>
+    <td>no permission for requested operation</td>
+  </tr>
+  <tr>
+    <td>E_EXIST</td>
+    <td>-1002</td>
+    <td>file or directory already exist</td>
+  </tr>
+  <tr>
+    <td>E_NOEXIST</td>
+    <td>-1003</td>
+    <td>file or directory does not exist</td>
+  </tr>
+  <tr>
+    <td>E_BUSY</td>
+    <td>-1004</td>
+    <td>file is busy</td>
+  </tr>
+  <tr>
+    <td>E_LOCALFILE</td>
+    <td>-1005</td>
+    <td>local file error</td>
+  </tr>
+  <tr>
+    <td>E_NOEMPTY</td>
+    <td>-1006</td>
+    <td>directory is not empty</td>
+  </tr> 
+  <tr>
+    <td>E_NOTDIR</td>
+    <td>-1007</td>
+    <td>directory does not exist or not a directory</td>
+  </tr> 
+  <tr>
+    <td>E_NOREPLICA</td>
+    <td>-1008</td>
+    <td>all replicas have been lost</td>
+  </tr> 
+  <tr>
+    <td>E_NOTFILE</td>
+    <td>-1007</td>
+    <td>not a regular file</td>
+  </tr> 
+  <tr>
+    <td>E_SECURITY</td>
+    <td>-2000</td>
+    <td>security check failed </td>
+  </tr>
+  <tr>
+    <td>E_NOCERT</td>
+    <td>-2001</td>
+    <td>no certificate found</td>
+  </tr>
+  <tr>
+    <td>E_ACCOUNT</td>
+    <td>-2002</td>
+    <td>user does not exist </td>
+  </tr>
+  <tr>
+    <td>E_PASSWORD</td>
+    <td>-2003</td>
+    <td>incorrect password </td>
+  </tr>
+  <tr>
+    <td>E_ACL</td>
+    <td>-2004</td>
+    <td>visit from illegal IP address </td>
+  </tr>
+  <tr>
+    <td>E_INITCTX</td>
+    <td>-2005</td>
+    <td>failed to initialize SSL CTX</td>
+  </tr>
+  <tr>
+    <td>E_NOSECSERV</td>
+    <td>-2006</td>
+    <td> security server is down or cannot connect to it</td>
+  </tr>
+  <tr>
+    <td>E_EXPIRED</td>
+    <td>-2007</td>
+    <td>connection time out due to no activity</td>
+  </tr>
+  <tr>
+    <td>E_AUTHORITY</td>
+    <td>-2008</td>
+    <td>no authority to run the command</td>
+  </tr>
+  <tr>
+    <td>E_ADDR</td>
+    <td>-2009</td>
+    <td>incorrect network address</td>
+  </tr>
+  <tr>
+    <td>E_GMP</td>
+    <td>-2010</td>
+    <td>cannot initialize GMP</td>
+  </tr>
+  <tr>
+    <td>E_DATACHN</td>
+    <td>-2011</td>
+    <td>cannot initialize data channel</td>
+  </tr>
+  <tr>
+    <td>E_CERTREFUSE</td>
+    <td>-2012</td>
+    <td>master refuses to send certificate (when no local copy is found)</td>
+  </tr>
+  <tr>
+    <td>E_MASTER</td>
+    <td>-2013</td>
+    <td>No master is found</td>
+  </tr>
+  <tr>
+    <td>E_CONNECTION</td>
+    <td>-3000</td>
+    <td>cannot set up connection or connection is broken</td>
+  </tr>
+  <tr>
+    <td>E_BROKENPIPE</td>
+    <td>-3001</td>
+    <td>data connection is broken</td>
+  </tr>
+  <tr>
+    <td>E_TIMEOUT</td>
+    <td>-3002</td>
+    <td>communication timeout</td>
+  </tr>
+  <tr>
+    <td>E_RESOURCE</td>
+    <td>-4000</td>
+    <td>no available resources </td>
+  </tr>
+  <tr>
+    <td>E_NODISK</td>
+    <td>-4001</td>
+    <td>no enough disk space</td>
+  </tr>  
+  <tr>
+    <td>E_VERSION</td>
+    <td>-5000</td>
+    <td>client version is not compatible with the Setcor servers</td>
+  </tr>
+  <tr>
+    <td>E_INVALID</td>
+    <td>-6000</td>
+    <td>invalid parameter </td>
+  </tr>
+  <tr>
+    <td>E_SUPPORT</td>
+    <td>-6001</td>
+    <td>operation not supported</td>
+  </tr>
+  <tr>
+    <td>E_CANCELED</td>
+    <td>-6002</td>
+    <td>operation was canceled</td>
+  </tr>
+  <tr>
+    <td>E_BUCKETFAIL</td>
+    <td>-7001</td>
+    <td>Sphere bucket failure</td>
+  </tr>
+   <tr>
+    <td>E_NOPROCESS</td>
+    <td>-7002</td>
+    <td>no Sphere process is running</td>
+  </tr>
+  <tr>
+    <td>E_MISSINGINPUT</td>
+    <td>-7003</td>
+    <td>at leasr one inout file cannot be located</td>
+  </tr>
+  <tr>
+    <td>E_NOINDEX</td>
+    <td>-7004</td>
+    <td>missing index file</td>
+  </tr>
+  <tr>
+    <td>E_ALLSPEFAIL</td>
+    <td>-7005</td>
+    <td>all SPE has failed</td>
+  </tr>
+  <tr>
+    <td>E_NOBUCKET</td>
+    <td>-7006</td>
+    <td>cannot allocate any bucket files</td>
+  </tr>
+</table>
+
+<h5>&nbsp;</h5>
+</body>
+</html>

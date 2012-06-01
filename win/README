@@ -1,0 +1,3 @@
+#1. download and install openssl-windows (32-bit or 64-bit)
+#2. find the installation at c:\openssl and copy the library and include files to VC++ lib and include directories
+#3. use sector.sln to open the project, compile

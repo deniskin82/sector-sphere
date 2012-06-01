@@ -1,0 +1,728 @@
+***open /clients/client0/filler.000
+***real open /clients/client0/filler.000
+***release path /clients/client0/filler.000
+*** release count 1
+***real close /clients/client0/filler.000
+***open /clients/client0/filler.001
+***real open /clients/client0/filler.001
+***release path /clients/client0/filler.001
+*** release count 1
+***real close /clients/client0/filler.001
+***open /clients/client0/filler.002
+***real open /clients/client0/filler.002
+***release path /clients/client0/filler.002
+*** release count 1
+***real close /clients/client0/filler.002
+***open /clients/client0/filler.003
+***real open /clients/client0/filler.003
+***release path /clients/client0/filler.003
+*** release count 1
+***real close /clients/client0/filler.003
+***open /clients/client0/filler.004
+***real open /clients/client0/filler.004
+***release path /clients/client0/filler.004
+*** release count 1
+***real close /clients/client0/filler.004
+***open /clients/client0/~dmtmp/WORD/CHAP10.DOC
+***real open /clients/client0/~dmtmp/WORD/CHAP10.DOC
+***release path /clients/client0/~dmtmp/WORD/CHAP10.DOC
+*** release count 1
+***real close /clients/client0/~dmtmp/WORD/CHAP10.DOC
+***open /clients/client0/~dmtmp/WORD/BASEMACH.DOC
+***real open /clients/client0/~dmtmp/WORD/BASEMACH.DOC
+***release path /clients/client0/~dmtmp/WORD/BASEMACH.DOC
+*** release count 1
+***real close /clients/client0/~dmtmp/WORD/BASEMACH.DOC
+***open /clients/client0/~dmtmp/WORD/FACTS.DOC
+***real open /clients/client0/~dmtmp/WORD/FACTS.DOC
+***release path /clients/client0/~dmtmp/WORD/FACTS.DOC
+*** release count 1
+***real close /clients/client0/~dmtmp/WORD/FACTS.DOC
+***open /clients/client0/~dmtmp/EXCEL/PCMAGCD.XLS
+***real open /clients/client0/~dmtmp/EXCEL/PCMAGCD.XLS
+***release path /clients/client0/~dmtmp/EXCEL/PCMAGCD.XLS
+*** release count 1
+***real close /clients/client0/~dmtmp/EXCEL/PCMAGCD.XLS
+***open /clients/client0/~dmtmp/EXCEL/SALES.XLS
+***real open /clients/client0/~dmtmp/EXCEL/SALES.XLS
+***release path /clients/client0/~dmtmp/EXCEL/SALES.XLS
+*** release count 1
+***real close /clients/client0/~dmtmp/EXCEL/SALES.XLS
+***open /clients/client0/~dmtmp/PWRPNT/PCBENCHM.PPT
+***real open /clients/client0/~dmtmp/PWRPNT/PCBENCHM.PPT
+***release path /clients/client0/~dmtmp/PWRPNT/PCBENCHM.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/PCBENCHM.PPT
+***open /clients/client0/~dmtmp/PWRPNT/ZD16.BMP
+***real open /clients/client0/~dmtmp/PWRPNT/ZD16.BMP
+***release path /clients/client0/~dmtmp/PWRPNT/ZD16.BMP
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/ZD16.BMP
+***open /clients/client0/~dmtmp/PWRPNT/PPTOOLS1.PPA
+***real open /clients/client0/~dmtmp/PWRPNT/PPTOOLS1.PPA
+***release path /clients/client0/~dmtmp/PWRPNT/PPTOOLS1.PPA
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/PPTOOLS1.PPA
+***open /clients/client0/~dmtmp/PWRPNT/TIPS.PPT
+***real open /clients/client0/~dmtmp/PWRPNT/TIPS.PPT
+***release path /clients/client0/~dmtmp/PWRPNT/TIPS.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/TIPS.PPT
+***open /clients/client0/~dmtmp/PWRPNT/TRIDOTS.POT
+***real open /clients/client0/~dmtmp/PWRPNT/TRIDOTS.POT
+***release path /clients/client0/~dmtmp/PWRPNT/TRIDOTS.POT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/TRIDOTS.POT
+***open /clients/client0/~dmtmp/COREL/CDRROLS.CFG
+***real open /clients/client0/~dmtmp/COREL/CDRROLS.CFG
+***release path /clients/client0/~dmtmp/COREL/CDRROLS.CFG
+*** release count 1
+***real close /clients/client0/~dmtmp/COREL/CDRROLS.CFG
+***open /clients/client0/~dmtmp/COREL/CDRBARS.CFG
+***real open /clients/client0/~dmtmp/COREL/CDRBARS.CFG
+***release path /clients/client0/~dmtmp/COREL/CDRBARS.CFG
+*** release count 1
+***real close /clients/client0/~dmtmp/COREL/CDRBARS.CFG
+***open /clients/client0/~dmtmp/COREL/ARTISTIC.ACL
+***real open /clients/client0/~dmtmp/COREL/ARTISTIC.ACL
+***release path /clients/client0/~dmtmp/COREL/ARTISTIC.ACL
+*** release count 1
+***real close /clients/client0/~dmtmp/COREL/ARTISTIC.ACL
+***open /clients/client0/~dmtmp/COREL/GRAPHIC1.CDR
+***real open /clients/client0/~dmtmp/COREL/GRAPHIC1.CDR
+***release path /clients/client0/~dmtmp/COREL/GRAPHIC1.CDR
+*** release count 1
+***real close /clients/client0/~dmtmp/COREL/GRAPHIC1.CDR
+***open /clients/client0/~dmtmp/COREL/MAILBOX2.CPT
+***real open /clients/client0/~dmtmp/COREL/MAILBOX2.CPT
+***release path /clients/client0/~dmtmp/COREL/MAILBOX2.CPT
+*** release count 1
+***real close /clients/client0/~dmtmp/COREL/MAILBOX2.CPT
+***open /clients/client0/~dmtmp/COREL/TEAPOT2.CPT
+***real open /clients/client0/~dmtmp/COREL/TEAPOT2.CPT
+***release path /clients/client0/~dmtmp/COREL/TEAPOT2.CPT
+*** release count 1
+***real close /clients/client0/~dmtmp/COREL/TEAPOT2.CPT
+***open /clients/client0/~dmtmp/COREL/SIGN2.CPT
+***real open /clients/client0/~dmtmp/COREL/SIGN2.CPT
+***release path /clients/client0/~dmtmp/COREL/SIGN2.CPT
+*** release count 1
+***real close /clients/client0/~dmtmp/COREL/SIGN2.CPT
+***open /clients/client0/~dmtmp/COREL/TRAIN.CDR
+***real open /clients/client0/~dmtmp/COREL/TRAIN.CDR
+***release path /clients/client0/~dmtmp/COREL/TRAIN.CDR
+*** release count 1
+***real close /clients/client0/~dmtmp/COREL/TRAIN.CDR
+***open /clients/client0/~dmtmp/COREL/GRAPHIC2.CDR
+***real open /clients/client0/~dmtmp/COREL/GRAPHIC2.CDR
+***release path /clients/client0/~dmtmp/COREL/GRAPHIC2.CDR
+*** release count 1
+***real close /clients/client0/~dmtmp/COREL/GRAPHIC2.CDR
+***open /clients/client0/~dmtmp/COREL/ROSE.CPT
+***real open /clients/client0/~dmtmp/COREL/ROSE.CPT
+***release path /clients/client0/~dmtmp/COREL/ROSE.CPT
+*** release count 1
+***real close /clients/client0/~dmtmp/COREL/ROSE.CPT
+***open /clients/client0/~dmtmp/COREL/CORELDRW.CDT
+***real open /clients/client0/~dmtmp/COREL/CORELDRW.CDT
+***release path /clients/client0/~dmtmp/COREL/CORELDRW.CDT
+*** release count 1
+***real close /clients/client0/~dmtmp/COREL/CORELDRW.CDT
+***open /clients/client0/~dmtmp/WORDPRO/BENCHS.LWP
+***real open /clients/client0/~dmtmp/WORDPRO/BENCHS.LWP
+***release path /clients/client0/~dmtmp/WORDPRO/BENCHS.LWP
+*** release count 1
+***real close /clients/client0/~dmtmp/WORDPRO/BENCHS.LWP
+***open /clients/client0/~dmtmp/WORDPRO/RESULTS.XLS
+***real open /clients/client0/~dmtmp/WORDPRO/RESULTS.XLS
+***release path /clients/client0/~dmtmp/WORDPRO/RESULTS.XLS
+*** release count 1
+***real close /clients/client0/~dmtmp/WORDPRO/RESULTS.XLS
+***open /clients/client0/~dmtmp/WORDPRO/NEWS1_1.LWP
+***real open /clients/client0/~dmtmp/WORDPRO/NEWS1_1.LWP
+***release path /clients/client0/~dmtmp/WORDPRO/NEWS1_1.LWP
+*** release count 1
+***real close /clients/client0/~dmtmp/WORDPRO/NEWS1_1.LWP
+***open /clients/client0/~dmtmp/PM/T1.XLS
+***real open /clients/client0/~dmtmp/PM/T1.XLS
+***release path /clients/client0/~dmtmp/PM/T1.XLS
+*** release count 1
+***real close /clients/client0/~dmtmp/PM/T1.XLS
+***open /clients/client0/~dmtmp/PM/EVENTS.DOC
+***real open /clients/client0/~dmtmp/PM/EVENTS.DOC
+***release path /clients/client0/~dmtmp/PM/EVENTS.DOC
+*** release count 1
+***real close /clients/client0/~dmtmp/PM/EVENTS.DOC
+***open /clients/client0/~dmtmp/PM/MOVED.DOC
+***real open /clients/client0/~dmtmp/PM/MOVED.DOC
+***release path /clients/client0/~dmtmp/PM/MOVED.DOC
+*** release count 1
+***real close /clients/client0/~dmtmp/PM/MOVED.DOC
+***open /clients/client0/~dmtmp/PARADOX/COURSES.DB
+***real open /clients/client0/~dmtmp/PARADOX/COURSES.DB
+***release path /clients/client0/~dmtmp/PARADOX/COURSES.DB
+*** release count 1
+***real close /clients/client0/~dmtmp/PARADOX/COURSES.DB
+***open /clients/client0/~dmtmp/PARADOX/COURSES.PX
+***real open /clients/client0/~dmtmp/PARADOX/COURSES.PX
+***release path /clients/client0/~dmtmp/PARADOX/COURSES.PX
+*** release count 1
+***real close /clients/client0/~dmtmp/PARADOX/COURSES.PX
+***open /clients/client0/~dmtmp/PARADOX/COURSES.X04
+***real open /clients/client0/~dmtmp/PARADOX/COURSES.X04
+***release path /clients/client0/~dmtmp/PARADOX/COURSES.X04
+*** release count 1
+***real close /clients/client0/~dmtmp/PARADOX/COURSES.X04
+***open /clients/client0/~dmtmp/PARADOX/COURSES.Y04
+***real open /clients/client0/~dmtmp/PARADOX/COURSES.Y04
+***release path /clients/client0/~dmtmp/PARADOX/COURSES.Y04
+*** release count 1
+***real close /clients/client0/~dmtmp/PARADOX/COURSES.Y04
+***open /clients/client0/~dmtmp/PARADOX/STUDENTS.DB
+***real open /clients/client0/~dmtmp/PARADOX/STUDENTS.DB
+***release path /clients/client0/~dmtmp/PARADOX/STUDENTS.DB
+*** release count 1
+***real close /clients/client0/~dmtmp/PARADOX/STUDENTS.DB
+***open /clients/client0/~dmtmp/PARADOX/STUDENTS.PX
+***real open /clients/client0/~dmtmp/PARADOX/STUDENTS.PX
+***release path /clients/client0/~dmtmp/PARADOX/STUDENTS.PX
+*** release count 1
+***real close /clients/client0/~dmtmp/PARADOX/STUDENTS.PX
+***open /clients/client0/~dmtmp/PARADOX/STUDENTS.XG0
+***real open /clients/client0/~dmtmp/PARADOX/STUDENTS.XG0
+***release path /clients/client0/~dmtmp/PARADOX/STUDENTS.XG0
+*** release count 1
+***real close /clients/client0/~dmtmp/PARADOX/STUDENTS.XG0
+***open /clients/client0/~dmtmp/PARADOX/STUDENTS.YG0
+***real open /clients/client0/~dmtmp/PARADOX/STUDENTS.YG0
+***release path /clients/client0/~dmtmp/PARADOX/STUDENTS.YG0
+*** release count 1
+***real close /clients/client0/~dmtmp/PARADOX/STUDENTS.YG0
+***open /clients/client0/~dmtmp/PARADOX/STUDENTS.XG1
+***real open /clients/client0/~dmtmp/PARADOX/STUDENTS.XG1
+***release path /clients/client0/~dmtmp/PARADOX/STUDENTS.XG1
+*** release count 1
+***real close /clients/client0/~dmtmp/PARADOX/STUDENTS.XG1
+***open /clients/client0/~dmtmp/PARADOX/STUDENTS.YG1
+***real open /clients/client0/~dmtmp/PARADOX/STUDENTS.YG1
+***release path /clients/client0/~dmtmp/PARADOX/STUDENTS.YG1
+*** release count 1
+***real close /clients/client0/~dmtmp/PARADOX/STUDENTS.YG1
+***open /clients/client0/~dmtmp/PARADOX/STUDENTS.VAL
+***real open /clients/client0/~dmtmp/PARADOX/STUDENTS.VAL
+***release path /clients/client0/~dmtmp/PARADOX/STUDENTS.VAL
+*** release count 1
+***real close /clients/client0/~dmtmp/PARADOX/STUDENTS.VAL
+***open /clients/client0/~dmtmp/PARADOX/STUDENTS.MB
+***real open /clients/client0/~dmtmp/PARADOX/STUDENTS.MB
+***release path /clients/client0/~dmtmp/PARADOX/STUDENTS.MB
+*** release count 1
+***real close /clients/client0/~dmtmp/PARADOX/STUDENTS.MB
+***open /clients/client0/~dmtmp/PARADOX/ENROLL.DB
+***real open /clients/client0/~dmtmp/PARADOX/ENROLL.DB
+***release path /clients/client0/~dmtmp/PARADOX/ENROLL.DB
+*** release count 1
+***real close /clients/client0/~dmtmp/PARADOX/ENROLL.DB
+***open /clients/client0/~dmtmp/PARADOX/ENROLL.PX
+***real open /clients/client0/~dmtmp/PARADOX/ENROLL.PX
+***release path /clients/client0/~dmtmp/PARADOX/ENROLL.PX
+*** release count 1
+***real close /clients/client0/~dmtmp/PARADOX/ENROLL.PX
+***open /clients/client0/~dmtmp/PARADOX/ENROLL.X03
+***real open /clients/client0/~dmtmp/PARADOX/ENROLL.X03
+***release path /clients/client0/~dmtmp/PARADOX/ENROLL.X03
+*** release count 1
+***real close /clients/client0/~dmtmp/PARADOX/ENROLL.X03
+***open /clients/client0/~dmtmp/PARADOX/ENROLL.Y03
+***real open /clients/client0/~dmtmp/PARADOX/ENROLL.Y03
+***release path /clients/client0/~dmtmp/PARADOX/ENROLL.Y03
+*** release count 1
+***real close /clients/client0/~dmtmp/PARADOX/ENROLL.Y03
+***open /clients/client0/~dmtmp/PARADOX/ENROLL.VAL
+***real open /clients/client0/~dmtmp/PARADOX/ENROLL.VAL
+***release path /clients/client0/~dmtmp/PARADOX/ENROLL.VAL
+*** release count 1
+***real close /clients/client0/~dmtmp/PARADOX/ENROLL.VAL
+***open /clients/client0/~dmtmp/PARADOX/STUDENTS.TV
+***real open /clients/client0/~dmtmp/PARADOX/STUDENTS.TV
+***release path /clients/client0/~dmtmp/PARADOX/STUDENTS.TV
+*** release count 1
+***real close /clients/client0/~dmtmp/PARADOX/STUDENTS.TV
+***open /clients/client0/~dmtmp/PARADOX/STUDENTS.FSL
+***real open /clients/client0/~dmtmp/PARADOX/STUDENTS.FSL
+***release path /clients/client0/~dmtmp/PARADOX/STUDENTS.FSL
+*** release count 1
+***real close /clients/client0/~dmtmp/PARADOX/STUDENTS.FSL
+***open /clients/client0/~dmtmp/PARADOX/COURSES.FSL
+***real open /clients/client0/~dmtmp/PARADOX/COURSES.FSL
+***release path /clients/client0/~dmtmp/PARADOX/COURSES.FSL
+*** release count 1
+***real close /clients/client0/~dmtmp/PARADOX/COURSES.FSL
+***open /clients/client0/~dmtmp/ACCESS/FASTENER.MDB
+***real open /clients/client0/~dmtmp/ACCESS/FASTENER.MDB
+***release path /clients/client0/~dmtmp/ACCESS/FASTENER.MDB
+*** release count 1
+***real close /clients/client0/~dmtmp/ACCESS/FASTENER.MDB
+***open /clients/client0/~dmtmp/SEED/SMALL.FIL
+***real open /clients/client0/~dmtmp/SEED/SMALL.FIL
+***release path /clients/client0/~dmtmp/SEED/SMALL.FIL
+*** release count 1
+***real close /clients/client0/~dmtmp/SEED/SMALL.FIL
+***open /clients/client0/~dmtmp/SEED/MEDIUM.FIL
+***real open /clients/client0/~dmtmp/SEED/MEDIUM.FIL
+***release path /clients/client0/~dmtmp/SEED/MEDIUM.FIL
+*** release count 1
+***real close /clients/client0/~dmtmp/SEED/MEDIUM.FIL
+***open /clients/client0/~dmtmp/SEED/LARGE.FIL
+***real open /clients/client0/~dmtmp/SEED/LARGE.FIL
+***release path /clients/client0/~dmtmp/SEED/LARGE.FIL
+*** release count 1
+***real close /clients/client0/~dmtmp/SEED/LARGE.FIL
+***open /clients/client0/~dmtmp/PWRPNT/PCBENCHM.PPT
+***real open /clients/client0/~dmtmp/PWRPNT/PCBENCHM.PPT
+***release path /clients/client0/~dmtmp/PWRPNT/PCBENCHM.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/PCBENCHM.PPT
+***open /clients/client0/~dmtmp/PWRPNT/PCBENCHM.PPT
+***open state 4 2
+***real open /clients/client0/~dmtmp/PWRPNT/PCBENCHM.PPT
+***release path /clients/client0/~dmtmp/PWRPNT/PCBENCHM.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/PCBENCHM.PPT
+***open /clients/client0/~dmtmp/PWRPNT/PCBENCHM.PPT
+***open state 4 2
+***real open /clients/client0/~dmtmp/PWRPNT/PCBENCHM.PPT
+***release path /clients/client0/~dmtmp/PWRPNT/PCBENCHM.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/PCBENCHM.PPT
+***open /clients/client0/~dmtmp/PWRPNT/PCBENCHM.PPT
+***open state 4 2
+***real open /clients/client0/~dmtmp/PWRPNT/PCBENCHM.PPT
+***release path /clients/client0/~dmtmp/PWRPNT/PCBENCHM.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/PCBENCHM.PPT
+***open /clients/client0/~dmtmp/PWRPNT/PCBENCHM.PPT
+***open state 4 2
+***real open /clients/client0/~dmtmp/PWRPNT/PCBENCHM.PPT
+***open /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***real open /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***release path /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***open /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***real open /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***release path /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***open /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***open state 4 2
+***real open /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***release path /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***open /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***open state 4 2
+***real open /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***open /clients/client0/~dmtmp/PWRPNT/ZD16.BMP
+***real open /clients/client0/~dmtmp/PWRPNT/ZD16.BMP
+***release path /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***open /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***open state 4 2
+***real open /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***release path /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***open /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***open state 4 2
+***real open /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***release path /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***open /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***open state 4 2
+***real open /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***open /clients/client0/~dmtmp/PWRPNT/PPTB1E4.TMP
+***real open /clients/client0/~dmtmp/PWRPNT/PPTB1E4.TMP
+***release path /clients/client0/~dmtmp/PWRPNT/PPTB1E4.TMP
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/PPTB1E4.TMP
+***release path /clients/client0/~dmtmp/PWRPNT/ZD16.BMP
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/ZD16.BMP
+***release path /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***release path /clients/client0/~dmtmp/PWRPNT/PCBENCHM.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/PCBENCHM.PPT
+***open /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***real open /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***release path /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***open /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***real open /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***release path /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***open /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***open state 4 2
+***real open /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***release path /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***open /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***open state 4 2
+***real open /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***release path /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***open /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***open state 4 2
+***real open /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***open /clients/client0/~dmtmp/PWRPNT/PPTB1E4.TMP
+***real open /clients/client0/~dmtmp/PWRPNT/PPTB1E4.TMP
+***release path /clients/client0/~dmtmp/PWRPNT/PPTB1E4.TMP
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/PPTB1E4.TMP
+***open /clients/client0/~dmtmp/PWRPNT/PPTOOLS1.PPA
+***real open /clients/client0/~dmtmp/PWRPNT/PPTOOLS1.PPA
+***release path /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***open /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***open state 4 2
+***real open /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***release path /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***open /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***open state 4 2
+***real open /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***release path /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***open /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***open state 4 2
+***real open /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***open /clients/client0/~dmtmp/PWRPNT/PPTC112.TMP
+***real open /clients/client0/~dmtmp/PWRPNT/PPTC112.TMP
+***release path /clients/client0/~dmtmp/PWRPNT/PPTC112.TMP
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/PPTC112.TMP
+***release path /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***open /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***real open /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***release path /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***open /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***real open /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***release path /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***open /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***open state 4 2
+***real open /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***release path /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***open /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***open state 4 2
+***real open /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***release path /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***open /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***open state 4 2
+***real open /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***open /clients/client0/~dmtmp/PWRPNT/PPTC112.TMP
+***real open /clients/client0/~dmtmp/PWRPNT/PPTC112.TMP
+***release path /clients/client0/~dmtmp/PWRPNT/PPTC112.TMP
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/PPTC112.TMP
+***open /clients/client0/~dmtmp/PWRPNT/TIPS.PPT
+***real open /clients/client0/~dmtmp/PWRPNT/TIPS.PPT
+***release path /clients/client0/~dmtmp/PWRPNT/TIPS.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/TIPS.PPT
+***open /clients/client0/~dmtmp/PWRPNT/TIPS.PPT
+***open state 4 2
+***real open /clients/client0/~dmtmp/PWRPNT/TIPS.PPT
+***release path /clients/client0/~dmtmp/PWRPNT/TIPS.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/TIPS.PPT
+***open /clients/client0/~dmtmp/PWRPNT/TIPS.PPT
+***open state 4 2
+***real open /clients/client0/~dmtmp/PWRPNT/TIPS.PPT
+***release path /clients/client0/~dmtmp/PWRPNT/TIPS.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/TIPS.PPT
+***open /clients/client0/~dmtmp/PWRPNT/TIPS.PPT
+***open state 4 2
+***real open /clients/client0/~dmtmp/PWRPNT/TIPS.PPT
+***release path /clients/client0/~dmtmp/PWRPNT/TIPS.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/TIPS.PPT
+***open /clients/client0/~dmtmp/PWRPNT/TIPS.PPT
+***open state 4 2
+***real open /clients/client0/~dmtmp/PWRPNT/TIPS.PPT
+***open /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***real open /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***release path /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***release path /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/NEWPCB.PPT
+***open /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***real open /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***release path /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***open /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***open state 4 2
+***real open /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***release path /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***open /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***open state 4 2
+***real open /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***release path /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***open /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***open state 4 2
+***real open /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***release path /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***open /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***open state 4 2
+***real open /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***release path /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***open /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***open state 4 2
+***real open /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***open /clients/client0/~dmtmp/PWRPNT/PPTC241.TMP
+***real open /clients/client0/~dmtmp/PWRPNT/PPTC241.TMP
+***release path /clients/client0/~dmtmp/PWRPNT/PPTC241.TMP
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/PPTC241.TMP
+***release path /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***release path /clients/client0/~dmtmp/PWRPNT/TIPS.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/TIPS.PPT
+***open /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***real open /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***release path /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***open /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***real open /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***release path /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***open /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***open state 4 2
+***real open /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***release path /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***open /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***open state 4 2
+***real open /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***release path /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***open /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***open state 4 2
+***real open /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***open /clients/client0/~dmtmp/PWRPNT/PPTC241.TMP
+***real open /clients/client0/~dmtmp/PWRPNT/PPTC241.TMP
+***release path /clients/client0/~dmtmp/PWRPNT/PPTC241.TMP
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/PPTC241.TMP
+***open /clients/client0/~dmtmp/PWRPNT/TRIDOTS.POT
+***real open /clients/client0/~dmtmp/PWRPNT/TRIDOTS.POT
+***release path /clients/client0/~dmtmp/PWRPNT/TRIDOTS.POT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/TRIDOTS.POT
+***open /clients/client0/~dmtmp/PWRPNT/TRIDOTS.POT
+***open state 4 2
+***real open /clients/client0/~dmtmp/PWRPNT/TRIDOTS.POT
+***release path /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***open /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***open state 4 2
+***real open /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***release path /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***open /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***open state 4 2
+***real open /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***release path /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***open /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***open state 4 2
+***real open /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***open /clients/client0/~dmtmp/PWRPNT/PPTC321.TMP
+***real open /clients/client0/~dmtmp/PWRPNT/PPTC321.TMP
+***release path /clients/client0/~dmtmp/PWRPNT/PPTC321.TMP
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/PPTC321.TMP
+***release path /clients/client0/~dmtmp/PWRPNT/TRIDOTS.POT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/TRIDOTS.POT
+***release path /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***open /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***real open /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***release path /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***open /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***real open /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***release path /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***open /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***open state 4 2
+***real open /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***release path /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***open /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***open state 4 2
+***real open /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***release path /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***open /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***open state 4 2
+***real open /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***open /clients/client0/~dmtmp/PWRPNT/PPTC321.TMP
+***real open /clients/client0/~dmtmp/PWRPNT/PPTC321.TMP
+***release path /clients/client0/~dmtmp/PWRPNT/PPTC321.TMP
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/PPTC321.TMP
+***open /clients/client0/~dmtmp/SEED/SMALL.FIL
+***real open /clients/client0/~dmtmp/SEED/SMALL.FIL
+***open /clients/client0/~dmtmp/SEED/MEDIUM.FIL
+***real open /clients/client0/~dmtmp/SEED/MEDIUM.FIL
+***open /clients/client0/~dmtmp/SEED/LARGE.FIL
+***real open /clients/client0/~dmtmp/SEED/LARGE.FIL
+***open /clients/client0/~dmtmp/WORD/CHAP10.DOC
+***real open /clients/client0/~dmtmp/WORD/CHAP10.DOC
+***open /clients/client0/~dmtmp/WORD/~$CHAP10.DOC
+***real open /clients/client0/~dmtmp/WORD/~$CHAP10.DOC
+***release path /clients/client0/~dmtmp/WORD/~$CHAP10.DOC
+*** release count 1
+***real close /clients/client0/~dmtmp/WORD/~$CHAP10.DOC
+***open /clients/client0/~dmtmp/WORD/HANDOUT.DOC
+***real open /clients/client0/~dmtmp/WORD/HANDOUT.DOC
+***release path /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/NEWTIPS.PPT
+***release path /clients/client0/~dmtmp/PWRPNT/PPTOOLS1.PPA
+*** release count 1
+***real close /clients/client0/~dmtmp/PWRPNT/PPTOOLS1.PPA
+***release path /clients/client0/~dmtmp/WORD/HANDOUT.DOC
+*** release count 1
+***real close /clients/client0/~dmtmp/WORD/HANDOUT.DOC
+***release path /clients/client0/~dmtmp/SEED/SMALL.FIL
+*** release count 1
+***real close /clients/client0/~dmtmp/SEED/SMALL.FIL
+***release path /clients/client0/~dmtmp/SEED/LARGE.FIL
+*** release count 1
+***real close /clients/client0/~dmtmp/SEED/LARGE.FIL
+***release path /clients/client0/~dmtmp/SEED/MEDIUM.FIL
+*** release count 1
+***real close /clients/client0/~dmtmp/SEED/MEDIUM.FIL
+***open /clients/client0/~dmtmp/WORD/~WRD0000.TMP
+***real open /clients/client0/~dmtmp/WORD/~WRD0000.TMP
+***release path /clients/client0/~dmtmp/WORD/~WRD0000.TMP
+*** release count 1
+***real close /clients/client0/~dmtmp/WORD/~WRD0000.TMP
+***open /clients/client0/~dmtmp/WORD/~WRD0000.TMP
+***open state 4 2
+***real open /clients/client0/~dmtmp/WORD/~WRD0000.TMP
+***release path /clients/client0/~dmtmp/WORD/~WRD0000.TMP
+*** release count 1
+***real close /clients/client0/~dmtmp/WORD/~WRD0000.TMP
+***open /clients/client0/~dmtmp/WORD/~WRD0000.TMP
+***open state 4 2
+***real open /clients/client0/~dmtmp/WORD/~WRD0000.TMP
+***release path /clients/client0/~dmtmp/WORD/~WRD0000.TMP
+*** release count 1
+***real close /clients/client0/~dmtmp/WORD/~WRD0000.TMP
+***open /clients/client0/~dmtmp/WORD/HANDOUT.DOC
+***real open /clients/client0/~dmtmp/WORD/HANDOUT.DOC
+***open /clients/client0/~dmtmp/WORD/~$CHAP10.DOC
+***real open /clients/client0/~dmtmp/WORD/~$CHAP10.DOC
+***release path /clients/client0/~dmtmp/WORD/~$CHAP10.DOC
+*** release count 1
+***real close /clients/client0/~dmtmp/WORD/~$CHAP10.DOC
+***open /clients/client0/~dmtmp/WORD/BASEMACH.DOC
+***real open /clients/client0/~dmtmp/WORD/BASEMACH.DOC
+***open /clients/client0/~dmtmp/WORD/BASEMACH.DOC
+***open state 3 2
+***release path /clients/client0/~dmtmp/WORD/BASEMACH.DOC
+*** release count 2
+***release path /clients/client0/~dmtmp/WORD/BASEMACH.DOC
+*** release count 1
+***real close /clients/client0/~dmtmp/WORD/BASEMACH.DOC
+***open /clients/client0/~dmtmp/WORD/~WRD0003.TMP
+***real open /clients/client0/~dmtmp/WORD/~WRD0003.TMP
+***release path /clients/client0/~dmtmp/WORD/~WRD0003.TMP
+*** release count 1
+***real close /clients/client0/~dmtmp/WORD/~WRD0003.TMP
+***open /clients/client0/~dmtmp/WORD/~WRD0003.TMP
+***open state 4 2
+***real open /clients/client0/~dmtmp/WORD/~WRD0003.TMP
+***release path /clients/client0/~dmtmp/WORD/HANDOUT.DOC
+*** release count 1
+***real close /clients/client0/~dmtmp/WORD/HANDOUT.DOC
+***release path /clients/client0/~dmtmp/WORD/CHAP10.DOC
+*** release count 1
+***real close /clients/client0/~dmtmp/WORD/CHAP10.DOC
+***open /clients/client0/~dmtmp/WORD/HANDOUT.DOC
+***open state 4 2
+***real open /clients/client0/~dmtmp/WORD/HANDOUT.DOC
+***release path /clients/client0/~dmtmp/WORD/HANDOUT.DOC
+*** release count 1
+***real close /clients/client0/~dmtmp/WORD/HANDOUT.DOC
+***open /clients/client0/~dmtmp/WORD/~WRL0004.TMP
+***real open /clients/client0/~dmtmp/WORD/~WRL0004.TMP
+***open /clients/client0/~dmtmp/WORD/~WRL0004.TMP
+***open state 3 2
+***release path /clients/client0/~dmtmp/WORD/~WRL0004.TMP
+*** release count 2
+***release path /clients/client0/~dmtmp/WORD/~WRD0003.TMP
+*** release count 1
+***real close /clients/client0/~dmtmp/WORD/~WRD0003.TMP
+***open /clients/client0/~dmtmp/WORD/~WRD0003.TMP
+***open state 4 2
+***real open /clients/client0/~dmtmp/WORD/~WRD0003.TMP
+***release path /clients/client0/~dmtmp/WORD/~WRD0003.TMP
+*** release count 1
+***real close /clients/client0/~dmtmp/WORD/~WRD0003.TMP
+***open /clients/client0/~dmtmp/WORD/HANDOUT.DOC
+***real open /clients/client0/~dmtmp/WORD/HANDOUT.DOC
+***result= -1004
+***release path /clients/client0/~dmtmp/WORD/~WRL0004.TMP
+*** release count 1
+***real close /clients/client0/~dmtmp/WORD/~WRL0004.TMP

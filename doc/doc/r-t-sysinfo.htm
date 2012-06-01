@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Sector/Sphere Manual</title>
+<link rel="stylesheet" href="sectordoc.css" type="text/css" />
+</head>
+
+<body>
+<div class="ref_head">Reference: Tools </div>
+
+<h4 class="func_name"><strong>sector_sysinfo</strong></h4>
+<p>The<strong> sector_sysinfo </strong>tool retrieves the detailed informtaion of the sector system. </p>
+
+<div class="code">sector_sysinfo</div>
+
+<h5>Parameters</h5>
+<dl>
+  <dt><i>None.</i></dt>
+</dl>
+
+<h5>Description</h5>
+<p>The <strong>sector_sysinfo</strong> tool can be used to check the detailed information of the Sector system.</p>
+<p>Below is an example of the output. The first part shows the system level information, including system start time, available disk, total file size, total number of files, and total number of slave nodes. The second part shows the cluster level information. Only the top level of clusters is shown. The information includes total number of nodes, available disk space, total file size, total size of data moved into the cluster, and total number of data moved out of the rack. The third part shows the node level information. It shows, for each node, the IP address, start time, available disk, total size of files, memory used by Sector, CPU time used by Sector (since the start time), total size of inbound data from network, and total size of outbound data. </p>
+
+<div class="code">
+Sector System Information:<br />
+Running since:               Tue Aug 17 16:58:08 2010<br />
+Available Disk Size:         243,351,136 MB<br />
+Total File Size:             1,647,949 MB<br />
+Total Number of Files:       2210<br />
+Total Number of Slave Nodes: 80<br />
+------------------------------------------------------------<br />
+MASTER ID IP              PORT<br />
+3835      172.31.0.5      6000<br />
+------------------------------------------------------------<br />
+Total number of clusters:    3<br />
+Cluster_ID  Total_Nodes AvailDisk(MB)  FileSize(MB)   NetIn(MB)      NetOut(MB)     <br />
+1           24          68,487,536     271,777        353765         342235         <br />
+2           27          80,707,584     304,170        378874         356616         <br />
+3           29          94,156,008     333,710        380556         396974         <br />
+------------------------------------------------------------<br />
+SLAVE_ID  Address                 AvailDisk(MB)  TotalFile(MB)  Mem(MB)     CPU(us)     NetIn(MB)      NetOut(MB)     TS(us)              <br />
+3836      172.31.0.15:59287       2,905,322      11,044         0           1167010000  21973          21654          1282133589428123    <br />
+3837      172.31.0.14:58198       2,839,964      11,789         0           1146470000  21188          19775          1282133589379690    <br />
+3838      172.31.0.24:55772       2,853,873      11,789         0           1141380000  21216          20615          1282133589369841    <br />
+3839      172.31.0.10:38601       2,814,452      11,044         0           1105550000  21182          19511          1282133589345359    <br />
+3840      172.31.0.31:46649       2,822,526      11,789         0           1136420000  21203          20072          1282133589375547
+</div>
+
+<p>&nbsp;</p>
+</body>
+</html>

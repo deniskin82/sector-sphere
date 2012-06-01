@@ -1,0 +1,12 @@
+Copyright © 2005 - 2011, The Board of Trustees of the University of Illinois.
+All Rights Reserved.
+
+Sector Distributed File System & Sphere Parallel Data Processing Framework
+
+Original Author: Yunhong Gu [yunhong.gu @ gmail.com]
+Contributing Authors: The Sector Alliance
+
+=============================================================================
+
+This Software uses UDT: UDP-based Data Transfer Protocol under the BSD License.
+Copyright © 2001 - 2011, The Board of Trustees of the University of Illinois.

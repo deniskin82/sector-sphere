@@ -1,0 +1,646 @@
+
+gmp rec delete
+gmp rec new
+gmp rec delete
+^C==17187==
+==17187== HEAP SUMMARY:
+==17187==     in use at exit: 3,404,458 bytes in 5,759 blocks
+==17187==   total heap usage: 81,611 allocs, 75,852 frees, 128,101,940 bytes allocated
+==17187==
+==17187== Thread 1:
+==17187== 26 bytes in 1 blocks are possibly lost in loss record 137 of 601
+==17187==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==17187==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x59D19C3: sector::Master::init() (master.cpp:145)
+==17187==    by 0x400F99: main (start_master.cpp:35)
+==17187==
+==17187== 28 bytes in 1 blocks are possibly lost in loss record 140 of 601
+==17187==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==17187==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x609AE45: ConfLocation::locate(std::string&) (conf.cpp:56)
+==17187==    by 0x59D0A15: sector::Master::init() (master.cpp:58)
+==17187==    by 0x400F99: main (start_master.cpp:35)
+==17187==
+==17187== 31 bytes in 1 blocks are possibly lost in loss record 142 of 601
+==17187==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==17187==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x59D195B: sector::Master::init() (master.cpp:143)
+==17187==    by 0x400F99: main (start_master.cpp:35)
+==17187==
+==17187== 34 bytes in 1 blocks are possibly lost in loss record 186 of 601
+==17187==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==17187==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x59931B7: sector::MasterConf::init(std::string const&) (master_conf.cpp:85)
+==17187==    by 0x59D0A79: sector::Master::init() (master.cpp:65)
+==17187==    by 0x400F99: main (start_master.cpp:35)
+==17187==
+==17187== 49 bytes in 1 blocks are possibly lost in loss record 217 of 601
+==17187==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==17187==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x60B9768: SectorLog::init(char const*) (log.cpp:66)
+==17187==    by 0x59D0D77: sector::Master::init() (master.cpp:86)
+==17187==    by 0x400F99: main (start_master.cpp:35)
+==17187==
+==17187== 53 bytes in 1 blocks are possibly lost in loss record 218 of 601
+==17187==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==17187==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x609A262: ConfParser::getToken(char*, std::string&) (conf.cpp:199)
+==17187==    by 0x609AA87: ConfParser::getNextParam(Param&) (conf.cpp:159)
+==17187==    by 0x59935DB: sector::MasterConf::init(std::string const&) (master_conf.cpp:65)
+==17187==    by 0x59D0A79: sector::Master::init() (master.cpp:65)
+==17187==    by 0x400F99: main (start_master.cpp:35)
+==17187==
+==17187== 59 bytes in 2 blocks are possibly lost in loss record 228 of 601
+==17187==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==17187==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBCFA: std::string::_Rep::_M_clone(std::allocator<char> const&, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECC980: std::string::reserve(unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECCE05: std::string::append(std::string const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x609E8BB: Metadata::revisePath(std::string const&) (meta.cpp:162)
+==17187==    by 0x5992A1F: sector::ReplicaConf::refresh(std::string const&) (master_conf.cpp:180)
+==17187==    by 0x59D16C0: sector::Master::init() (master.cpp:131)
+==17187==    by 0x400F99: main (start_master.cpp:35)
+==17187==
+==17187== 61 bytes in 1 blocks are possibly lost in loss record 229 of 601
+==17187==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==17187==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x60C7D6F: __static_initialization_and_destruction_0(int, int) (sector.h:51)
+==17187==    by 0x60C7DD7: global constructors keyed to threadpool.cpp (threadpool.cpp:64)
+==17187==    by 0x60CB1F5: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==17187==    by 0x608D202: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==17187==    by 0x7FF0007A7: ???
+==17187==    by 0x400D717: ??? (in /lib/ld-2.7.so)
+==17187==    by 0x400D846: ??? (in /lib/ld-2.7.so)
+==17187==    by 0x4000A99: ??? (in /lib/ld-2.7.so)
+==17187==
+==17187== 61 bytes in 1 blocks are possibly lost in loss record 230 of 601
+==17187==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==17187==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x60C2C5F: __static_initialization_and_destruction_0(int, int) (sector.h:51)
+==17187==    by 0x60C2CC7: global constructors keyed to datachn.cpp (datachn.cpp:814)
+==17187==    by 0x60CB1F5: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==17187==    by 0x608D202: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==17187==    by 0x7FF0007A7: ???
+==17187==    by 0x400D717: ??? (in /lib/ld-2.7.so)
+==17187==    by 0x400D846: ??? (in /lib/ld-2.7.so)
+==17187==    by 0x4000A99: ??? (in /lib/ld-2.7.so)
+==17187==
+==17187== 61 bytes in 1 blocks are possibly lost in loss record 231 of 601
+==17187==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==17187==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x60C2066: __static_initialization_and_destruction_0(int, int) (sector.h:51)
+==17187==    by 0x60C20F7: global constructors keyed to tcptransport.cpp (tcptransport.cpp:275)
+==17187==    by 0x60CB1F5: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==17187==    by 0x608D202: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==17187==    by 0x7FF0007A7: ???
+==17187==    by 0x400D717: ??? (in /lib/ld-2.7.so)
+==17187==    by 0x400D846: ??? (in /lib/ld-2.7.so)
+==17187==    by 0x4000A99: ??? (in /lib/ld-2.7.so)
+==17187==
+==17187== 61 bytes in 1 blocks are possibly lost in loss record 232 of 601
+==17187==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==17187==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x60C0F70: __static_initialization_and_destruction_0(int, int) (sector.h:51)
+==17187==    by 0x60C0FD8: global constructors keyed to ssltransport.cpp (ssltransport.cpp:367)
+==17187==    by 0x60CB1F5: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==17187==    by 0x608D202: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==17187==    by 0x7FF0007A7: ???
+==17187==    by 0x400D717: ??? (in /lib/ld-2.7.so)
+==17187==    by 0x400D846: ??? (in /lib/ld-2.7.so)
+==17187==    by 0x4000A99: ??? (in /lib/ld-2.7.so)
+==17187==
+==17187== 61 bytes in 1 blocks are possibly lost in loss record 233 of 601
+==17187==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==17187==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x60BC8BB: __static_initialization_and_destruction_0(int, int) (sector.h:51)
+==17187==    by 0x60BC923: global constructors keyed to routing.cpp (routing.cpp:222)
+==17187==    by 0x60CB1F5: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==17187==    by 0x608D202: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==17187==    by 0x7FF0007A7: ???
+==17187==    by 0x400D717: ??? (in /lib/ld-2.7.so)
+==17187==    by 0x400D846: ??? (in /lib/ld-2.7.so)
+==17187==    by 0x4000A99: ??? (in /lib/ld-2.7.so)
+==17187==
+==17187== 61 bytes in 1 blocks are possibly lost in loss record 234 of 601
+==17187==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==17187==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x60BB9D7: __static_initialization_and_destruction_0(int, int) (sector.h:51)
+==17187==    by 0x60BBA68: global constructors keyed to constant.cpp (constant.cpp:82)
+==17187==    by 0x60CB1F5: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==17187==    by 0x608D202: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==17187==    by 0x7FF0007A7: ???
+==17187==    by 0x400D717: ??? (in /lib/ld-2.7.so)
+==17187==    by 0x400D846: ??? (in /lib/ld-2.7.so)
+==17187==    by 0x4000A99: ??? (in /lib/ld-2.7.so)
+==17187==
+==17187== 61 bytes in 1 blocks are possibly lost in loss record 235 of 601
+==17187==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==17187==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x60B9151: __static_initialization_and_destruction_0(int, int) (sector.h:51)
+==17187==    by 0x60B91B9: global constructors keyed to log.cpp (log.cpp:238)
+==17187==    by 0x60CB1F5: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==17187==    by 0x608D202: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==17187==    by 0x7FF0007A7: ???
+==17187==    by 0x400D717: ??? (in /lib/ld-2.7.so)
+==17187==    by 0x400D846: ??? (in /lib/ld-2.7.so)
+==17187==    by 0x4000A99: ??? (in /lib/ld-2.7.so)
+==17187==
+==17187== 61 bytes in 1 blocks are possibly lost in loss record 236 of 601
+==17187==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==17187==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x60B473A: __static_initialization_and_destruction_0(int, int) (sector.h:51)
+==17187==    by 0x60B47A2: global constructors keyed to topology.cpp (topology.cpp:424)
+==17187==    by 0x60CB1F5: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==17187==    by 0x608D202: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==17187==    by 0x7FF0007A7: ???
+==17187==    by 0x400D717: ??? (in /lib/ld-2.7.so)
+==17187==    by 0x400D846: ??? (in /lib/ld-2.7.so)
+==17187==    by 0x4000A99: ??? (in /lib/ld-2.7.so)
+==17187==
+==17187== 61 bytes in 1 blocks are possibly lost in loss record 237 of 601
+==17187==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==17187==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x60ACA43: __static_initialization_and_destruction_0(int, int) (sector.h:51)
+==17187==    by 0x60ACAAB: global constructors keyed to memobj.cpp (memobj.cpp:124)
+==17187==    by 0x60CB1F5: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==17187==    by 0x608D202: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==17187==    by 0x7FF0007A7: ???
+==17187==    by 0x400D717: ??? (in /lib/ld-2.7.so)
+==17187==    by 0x400D846: ??? (in /lib/ld-2.7.so)
+==17187==    by 0x4000A99: ??? (in /lib/ld-2.7.so)
+==17187==
+==17187== 61 bytes in 1 blocks are possibly lost in loss record 238 of 601
+==17187==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==17187==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x60A1B40: __static_initialization_and_destruction_0(int, int) (sector.h:51)
+==17187==    by 0x60A1BA8: global constructors keyed to index.cpp (index.cpp:1157)
+==17187==    by 0x60CB1F5: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==17187==    by 0x608D202: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==17187==    by 0x7FF0007A7: ???
+==17187==    by 0x400D717: ??? (in /lib/ld-2.7.so)
+==17187==    by 0x400D846: ??? (in /lib/ld-2.7.so)
+==17187==    by 0x4000A99: ??? (in /lib/ld-2.7.so)
+==17187==
+==17187== 61 bytes in 1 blocks are possibly lost in loss record 239 of 601
+==17187==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==17187==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x609E50B: __static_initialization_and_destruction_0(int, int) (sector.h:51)
+==17187==    by 0x609E5AC: global constructors keyed to meta.cpp (meta.cpp:212)
+==17187==    by 0x60CB1F5: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==17187==    by 0x608D202: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==17187==    by 0x7FF0007A7: ???
+==17187==    by 0x400D717: ??? (in /lib/ld-2.7.so)
+==17187==    by 0x400D846: ??? (in /lib/ld-2.7.so)
+==17187==    by 0x4000A99: ??? (in /lib/ld-2.7.so)
+==17187==
+==17187== 61 bytes in 1 blocks are possibly lost in loss record 240 of 601
+==17187==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==17187==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x609D22B: __static_initialization_and_destruction_0(int, int) (sector.h:51)
+==17187==    by 0x609D293: global constructors keyed to snode.cpp (snode.cpp:254)
+==17187==    by 0x60CB1F5: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==17187==    by 0x608D202: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==17187==    by 0x7FF0007A7: ???
+==17187==    by 0x400D717: ??? (in /lib/ld-2.7.so)
+==17187==    by 0x400D846: ??? (in /lib/ld-2.7.so)
+==17187==    by 0x4000A99: ??? (in /lib/ld-2.7.so)
+==17187==
+==17187== 61 bytes in 1 blocks are possibly lost in loss record 241 of 601
+==17187==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==17187==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x609CCE3: __static_initialization_and_destruction_0(int, int) (sector.h:51)
+==17187==    by 0x609CD4B: global constructors keyed to sfopt.cpp (sfopt.cpp:71)
+==17187==    by 0x60CB1F5: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==17187==    by 0x608D202: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==17187==    by 0x7FF0007A7: ???
+==17187==    by 0x400D717: ??? (in /lib/ld-2.7.so)
+==17187==    by 0x400D846: ??? (in /lib/ld-2.7.so)
+==17187==    by 0x4000A99: ??? (in /lib/ld-2.7.so)
+==17187==
+==17187== 61 bytes in 1 blocks are possibly lost in loss record 242 of 601
+==17187==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==17187==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x609A12F: __static_initialization_and_destruction_0(int, int) (sector.h:51)
+==17187==    by 0x609A1C0: global constructors keyed to conf.cpp (conf.cpp:363)
+==17187==    by 0x60CB1F5: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==17187==    by 0x608D202: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==17187==    by 0x7FF0007A7: ???
+==17187==    by 0x400D717: ??? (in /lib/ld-2.7.so)
+==17187==    by 0x400D846: ??? (in /lib/ld-2.7.so)
+==17187==    by 0x4000A99: ??? (in /lib/ld-2.7.so)
+==17187==
+==17187== 61 bytes in 1 blocks are possibly lost in loss record 243 of 601
+==17187==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==17187==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x6095613: __static_initialization_and_destruction_0(int, int) (sector.h:51)
+==17187==    by 0x609567B: global constructors keyed to osportable.cpp (osportable.cpp:591)
+==17187==    by 0x60CB1F5: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==17187==    by 0x608D202: ??? (in /home/yunhong/sector-sphere/lib/libcommon.so)
+==17187==    by 0x7FF0007A7: ???
+==17187==    by 0x400D717: ??? (in /lib/ld-2.7.so)
+==17187==    by 0x400D846: ??? (in /lib/ld-2.7.so)
+==17187==    by 0x4000A99: ??? (in /lib/ld-2.7.so)
+==17187==
+==17187== 61 bytes in 1 blocks are possibly lost in loss record 244 of 601
+==17187==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==17187==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x5E3AEB0: __static_initialization_and_destruction_0(int, int) (sector.h:51)
+==17187==    by 0x5E3AF18: global constructors keyed to filesrc.cpp (filesrc.cpp:341)
+==17187==    by 0x5E40C15: ??? (in /home/yunhong/sector-sphere/lib/libsecurity.so)
+==17187==    by 0x5E384F2: ??? (in /home/yunhong/sector-sphere/lib/libsecurity.so)
+==17187==    by 0x7FF0007A7: ???
+==17187==    by 0x400D717: ??? (in /lib/ld-2.7.so)
+==17187==    by 0x400D846: ??? (in /lib/ld-2.7.so)
+==17187==    by 0x4000A99: ??? (in /lib/ld-2.7.so)
+==17187==
+==17187== 61 bytes in 1 blocks are possibly lost in loss record 245 of 601
+==17187==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==17187==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x5E39CC5: __static_initialization_and_destruction_0(int, int) (sector.h:51)
+==17187==    by 0x5E39D2D: global constructors keyed to security.cpp (security.cpp:266)
+==17187==    by 0x5E40C15: ??? (in /home/yunhong/sector-sphere/lib/libsecurity.so)
+==17187==    by 0x5E384F2: ??? (in /home/yunhong/sector-sphere/lib/libsecurity.so)
+==17187==    by 0x7FF0007A7: ???
+==17187==    by 0x400D717: ??? (in /lib/ld-2.7.so)
+==17187==    by 0x400D846: ??? (in /lib/ld-2.7.so)
+==17187==    by 0x4000A99: ??? (in /lib/ld-2.7.so)
+==17187==
+==17187== 61 bytes in 1 blocks are possibly lost in loss record 246 of 601
+==17187==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==17187==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x5C18294: __static_initialization_and_destruction_0(int, int) (sector.h:51)
+==17187==    by 0x5C18335: global constructors keyed to gmp.cpp (gmp.cpp:1106)
+==17187==    by 0x5C23CC5: ??? (in /home/yunhong/sector-sphere/lib/librpc.so)
+==17187==    by 0x5C11842: ??? (in /home/yunhong/sector-sphere/lib/librpc.so)
+==17187==    by 0x7FF0007A7: ???
+==17187==    by 0x400D717: ??? (in /lib/ld-2.7.so)
+==17187==    by 0x400D846: ??? (in /lib/ld-2.7.so)
+==17187==    by 0x4000A99: ??? (in /lib/ld-2.7.so)
+==17187==
+==17187== 61 bytes in 1 blocks are possibly lost in loss record 247 of 601
+==17187==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==17187==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x59B5B11: __static_initialization_and_destruction_0(int, int) (sector.h:51)
+==17187==    by 0x59B5B79: global constructors keyed to master.cpp (master.cpp:3275)
+==17187==    by 0x59D9885: ??? (in /home/yunhong/sector-sphere/lib/libmaster.so)
+==17187==    by 0x5987A02: ??? (in /home/yunhong/sector-sphere/lib/libmaster.so)
+==17187==    by 0x7FF0007A7: ???
+==17187==    by 0x400D717: ??? (in /lib/ld-2.7.so)
+==17187==    by 0x400D846: ??? (in /lib/ld-2.7.so)
+==17187==    by 0x4000A99: ??? (in /lib/ld-2.7.so)
+==17187==
+==17187== 61 bytes in 1 blocks are possibly lost in loss record 248 of 601
+==17187==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==17187==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x59AF08B: __static_initialization_and_destruction_0(int, int) (sector.h:51)
+==17187==    by 0x59AF0F3: global constructors keyed to user.cpp (user.cpp:250)
+==17187==    by 0x59D9885: ??? (in /home/yunhong/sector-sphere/lib/libmaster.so)
+==17187==    by 0x5987A02: ??? (in /home/yunhong/sector-sphere/lib/libmaster.so)
+==17187==    by 0x7FF0007A7: ???
+==17187==    by 0x400D717: ??? (in /lib/ld-2.7.so)
+==17187==    by 0x400D846: ??? (in /lib/ld-2.7.so)
+==17187==    by 0x4000A99: ??? (in /lib/ld-2.7.so)
+==17187==
+==17187== 61 bytes in 1 blocks are possibly lost in loss record 249 of 601
+==17187==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==17187==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x5997994: __static_initialization_and_destruction_0(int, int) (sector.h:51)
+==17187==    by 0x59979FC: global constructors keyed to slavemgmt.cpp (slavemgmt.cpp:1152)
+==17187==    by 0x59D9885: ??? (in /home/yunhong/sector-sphere/lib/libmaster.so)
+==17187==    by 0x5987A02: ??? (in /home/yunhong/sector-sphere/lib/libmaster.so)
+==17187==    by 0x7FF0007A7: ???
+==17187==    by 0x400D717: ??? (in /lib/ld-2.7.so)
+==17187==    by 0x400D846: ??? (in /lib/ld-2.7.so)
+==17187==    by 0x4000A99: ??? (in /lib/ld-2.7.so)
+==17187==
+==17187== 61 bytes in 1 blocks are possibly lost in loss record 250 of 601
+==17187==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==17187==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x5990F60: __static_initialization_and_destruction_0(int, int) (sector.h:51)
+==17187==    by 0x5990FC8: global constructors keyed to master_conf.cpp (master_conf.cpp:487)
+==17187==    by 0x59D9885: ??? (in /home/yunhong/sector-sphere/lib/libmaster.so)
+==17187==    by 0x5987A02: ??? (in /home/yunhong/sector-sphere/lib/libmaster.so)
+==17187==    by 0x7FF0007A7: ???
+==17187==    by 0x400D717: ??? (in /lib/ld-2.7.so)
+==17187==    by 0x400D846: ??? (in /lib/ld-2.7.so)
+==17187==    by 0x4000A99: ??? (in /lib/ld-2.7.so)
+==17187==
+==17187== 61 bytes in 1 blocks are possibly lost in loss record 251 of 601
+==17187==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==17187==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x400EE9: __static_initialization_and_destruction_0(int, int) (sector.h:51)
+==17187==    by 0x400F48: global constructors keyed to main (start_master.cpp:55)
+==17187==    by 0x401165: ??? (in /home/yunhong/sector-sphere/master/start_master)
+==17187==    by 0x400C32: ??? (in /home/yunhong/sector-sphere/master/start_master)
+==17187==    by 0x401BFFF: ??? (in /lib/ld-2.7.so)
+==17187==    by 0x4010F4: __libc_csu_init (in /home/yunhong/sector-sphere/master/start_master)
+==17187==    by 0x6A1E131: (below main) (in /lib/libc-2.7.so)
+==17187==
+==17187== 63 bytes in 2 blocks are possibly lost in loss record 252 of 601
+==17187==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==17187==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBCFA: std::string::_Rep::_M_clone(std::allocator<char> const&, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECC980: std::string::reserve(unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECCE05: std::string::append(std::string const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x609E8BB: Metadata::revisePath(std::string const&) (meta.cpp:162)
+==17187==    by 0x5992B90: sector::ReplicaConf::refresh(std::string const&) (master_conf.cpp:194)
+==17187==    by 0x59D16C0: sector::Master::init() (master.cpp:131)
+==17187==    by 0x400F99: main (start_master.cpp:35)
+==17187==
+==17187== 102 bytes in 2 blocks are possibly lost in loss record 302 of 601
+==17187==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==17187==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x5990D1E: sector::SlaveStartInfo::parse(char*, std::string&, std::string&) (master_conf.cpp:380)
+==17187==    by 0x5991647: sector::Master::loadSlaveStartInfo(std::string const&, std::set<sector::SlaveStartInfo, sector::SSIComp, std::allocator<sector::SlaveStartInfo> >&) (master_conf.cpp:431)
+==17187==    by 0x59D18DD: sector::Master::init() (master.cpp:139)
+==17187==    by 0x400F99: main (start_master.cpp:35)
+==17187==
+==17187== 133 bytes in 1 blocks are possibly lost in loss record 347 of 601
+==17187==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==17187==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBCFA: std::string::_Rep::_M_clone(std::allocator<char> const&, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECC980: std::string::reserve(unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECCE05: std::string::append(std::string const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECCEA3: std::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::basic_string<char, std::char_traits<char>, 
+std::allocator<char> > const&, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x5992108: sector::Master::loadSlaveStartInfo(std::string const&, std::set<sector::SlaveStartInfo, sector::SSIComp, std::allocator<sector::SlaveStartInfo> >&) (master_conf.cpp:478)
+==17187==    by 0x59D18DD: sector::Master::init() (master.cpp:139)
+==17187==    by 0x400F99: main (start_master.cpp:35)
+==17187==
+==17187== 170 bytes in 5 blocks are possibly lost in loss record 370 of 601
+==17187==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==17187==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x5C16F5F: CGMP::UDPsend(char const*, int const&, int&, char const*, int const&, bool const&) (gmp.cpp:287)
+==17187==    by 0x5C170AB: CGMP::sendto(std::string const&, int const&, int&, CUserMessage const*) (gmp.cpp:267)
+==17187==    by 0x59C69DF: sector::Master::processSysCmd(std::string const&, int, sector::User const*, int, int, SectorMsg*) (master.cpp:1328)
+==17187==    by 0x59C832E: sector::Master::processEx(void*) (master.cpp:1170)
+==17187==    by 0x5139FC6: start_thread (in /lib/libpthread-2.7.so)
+==17187==    by 0x6ACF64C: clone (in /lib/libc-2.7.so)
+==17187==
+==17187== 252 bytes in 7 blocks are possibly lost in loss record 404 of 601
+==17187==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==17187==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x5991418: sector::SlaveStartInfo::getIP(char const*) (master_conf.cpp:402)
+==17187==    by 0x599220A: sector::Master::loadSlaveStartInfo(std::string const&, std::set<sector::SlaveStartInfo, sector::SSIComp, std::allocator<sector::SlaveStartInfo> >&) (master_conf.cpp:481)
+==17187==    by 0x59D18DD: sector::Master::init() (master.cpp:139)
+==17187==    by 0x400F99: main (start_master.cpp:35)
+==17187==
+==17187== 288 bytes in 1 blocks are possibly lost in loss record 426 of 601
+==17187==    at 0x4C20B0F: calloc (vg_replace_malloc.c:467)
+==17187==    by 0x40108BE: _dl_allocate_tls (in /lib/ld-2.7.so)
+==17187==    by 0x51396BA: pthread_create@@GLIBC_2.2.5 (in /lib/libpthread-2.7.so)
+==17187==    by 0x6347BF7: CUDTUnited::startup() (api.cpp:207)
+==17187==    by 0x6347C27: CUDT::startup() (api.cpp:1550)
+==17187==    by 0x6347C32: UDT::startup() (api.cpp:2159)
+==17187==    by 0x5C176FC: CGMP::init(int const&) (gmp.cpp:175)
+==17187==    by 0x59D1AD2: sector::Master::init() (master.cpp:153)
+==17187==    by 0x400F99: main (start_master.cpp:35)
+==17187==
+==17187== 288 bytes in 1 blocks are possibly lost in loss record 427 of 601
+==17187==    at 0x4C20B0F: calloc (vg_replace_malloc.c:467)
+==17187==    by 0x40108BE: _dl_allocate_tls (in /lib/ld-2.7.so)
+==17187==    by 0x51396BA: pthread_create@@GLIBC_2.2.5 (in /lib/libpthread-2.7.so)
+==17187==    by 0x632666E: CSndQueue::init(CChannel const*, CTimer const*) (queue.cpp:500)
+==17187==    by 0x633FEC4: CUDTUnited::updateMux(CUDTSocket*, sockaddr const*, int const*) (api.cpp:1430)
+==17187==    by 0x63458C5: CUDTUnited::bind(int, sockaddr const*, int const&) (api.cpp:524)
+==17187==    by 0x634595D: CUDT::bind(int, sockaddr const*, int) (api.cpp:1588)
+==17187==    by 0x6345B91: UDT::bind(int, sockaddr const*, int) (api.cpp:2174)
+==17187==    by 0x60C0C39: sector::UDTTransport::open(int&, bool, bool) (udttransport.cpp:88)
+==17187==    by 0x5C1774E: CGMP::init(int const&) (gmp.cpp:182)
+==17187==    by 0x59D1AD2: sector::Master::init() (master.cpp:153)
+==17187==    by 0x400F99: main (start_master.cpp:35)
+==17187==
+==17187== 288 bytes in 1 blocks are possibly lost in loss record 428 of 601
+==17187==    at 0x4C20B0F: calloc (vg_replace_malloc.c:467)
+==17187==    by 0x40108BE: _dl_allocate_tls (in /lib/ld-2.7.so)
+==17187==    by 0x51396BA: pthread_create@@GLIBC_2.2.5 (in /lib/libpthread-2.7.so)
+==17187==    by 0x632640E: CRcvQueue::init(int const&, int const&, int const&, int const&, CChannel const*, CTimer const*) (queue.cpp:956)
+==17187==    by 0x633FF89: CUDTUnited::updateMux(CUDTSocket*, sockaddr const*, int const*) (api.cpp:1432)
+==17187==    by 0x63458C5: CUDTUnited::bind(int, sockaddr const*, int const&) (api.cpp:524)
+==17187==    by 0x634595D: CUDT::bind(int, sockaddr const*, int) (api.cpp:1588)
+==17187==    by 0x6345B91: UDT::bind(int, sockaddr const*, int) (api.cpp:2174)
+==17187==    by 0x60C0C39: sector::UDTTransport::open(int&, bool, bool) (udttransport.cpp:88)
+==17187==    by 0x5C1774E: CGMP::init(int const&) (gmp.cpp:182)
+==17187==    by 0x59D1AD2: sector::Master::init() (master.cpp:153)
+==17187==    by 0x400F99: main (start_master.cpp:35)
+==17187==
+==17187== 288 bytes in 1 blocks are possibly lost in loss record 429 of 601
+==17187==    at 0x4C20B0F: calloc (vg_replace_malloc.c:467)
+==17187==    by 0x40108BE: _dl_allocate_tls (in /lib/ld-2.7.so)
+==17187==    by 0x51396BA: pthread_create@@GLIBC_2.2.5 (in /lib/libpthread-2.7.so)
+==17187==    by 0x5C1788E: CGMP::init(int const&) (gmp.cpp:208)
+==17187==    by 0x59D1AD2: sector::Master::init() (master.cpp:153)
+==17187==    by 0x400F99: main (start_master.cpp:35)
+==17187==
+==17187== 288 bytes in 1 blocks are possibly lost in loss record 430 of 601
+==17187==    at 0x4C20B0F: calloc (vg_replace_malloc.c:467)
+==17187==    by 0x40108BE: _dl_allocate_tls (in /lib/ld-2.7.so)
+==17187==    by 0x51396BA: pthread_create@@GLIBC_2.2.5 (in /lib/libpthread-2.7.so)
+==17187==    by 0x5C178AB: CGMP::init(int const&) (gmp.cpp:209)
+==17187==    by 0x59D1AD2: sector::Master::init() (master.cpp:153)
+==17187==    by 0x400F99: main (start_master.cpp:35)
+==17187==
+==17187== 288 bytes in 1 blocks are possibly lost in loss record 431 of 601
+==17187==    at 0x4C20B0F: calloc (vg_replace_malloc.c:467)
+==17187==    by 0x40108BE: _dl_allocate_tls (in /lib/ld-2.7.so)
+==17187==    by 0x51396BA: pthread_create@@GLIBC_2.2.5 (in /lib/libpthread-2.7.so)
+==17187==    by 0x5C178C8: CGMP::init(int const&) (gmp.cpp:210)
+==17187==    by 0x59D1AD2: sector::Master::init() (master.cpp:153)
+==17187==    by 0x400F99: main (start_master.cpp:35)
+==17187==
+==17187== 288 bytes in 1 blocks are possibly lost in loss record 432 of 601
+==17187==    at 0x4C20B0F: calloc (vg_replace_malloc.c:467)
+==17187==    by 0x40108BE: _dl_allocate_tls (in /lib/ld-2.7.so)
+==17187==    by 0x51396BA: pthread_create@@GLIBC_2.2.5 (in /lib/libpthread-2.7.so)
+==17187==    by 0x59D1D1A: sector::Master::init() (master.cpp:187)
+==17187==    by 0x400F99: main (start_master.cpp:35)
+==17187==
+==17187== 288 bytes in 1 blocks are possibly lost in loss record 433 of 601
+==17187==    at 0x4C20B0F: calloc (vg_replace_malloc.c:467)
+==17187==    by 0x40108BE: _dl_allocate_tls (in /lib/ld-2.7.so)
+==17187==    by 0x51396BA: pthread_create@@GLIBC_2.2.5 (in /lib/libpthread-2.7.so)
+==17187==    by 0x59D1D45: sector::Master::init() (master.cpp:192)
+==17187==    by 0x400F99: main (start_master.cpp:35)
+==17187==
+==17187== 288 bytes in 1 blocks are possibly lost in loss record 434 of 601
+==17187==    at 0x4C20B0F: calloc (vg_replace_malloc.c:467)
+==17187==    by 0x40108BE: _dl_allocate_tls (in /lib/ld-2.7.so)
+==17187==    by 0x51396BA: pthread_create@@GLIBC_2.2.5 (in /lib/libpthread-2.7.so)
+==17187==    by 0x59D1D70: sector::Master::init() (master.cpp:197)
+==17187==    by 0x400F99: main (start_master.cpp:35)
+==17187==
+==17187== 288 bytes in 1 blocks are possibly lost in loss record 435 of 601
+==17187==    at 0x4C20B0F: calloc (vg_replace_malloc.c:467)
+==17187==    by 0x40108BE: _dl_allocate_tls (in /lib/ld-2.7.so)
+==17187==    by 0x51396BA: pthread_create@@GLIBC_2.2.5 (in /lib/libpthread-2.7.so)
+==17187==    by 0x59D1D9B: sector::Master::init() (master.cpp:202)
+==17187==    by 0x400F99: main (start_master.cpp:35)
+==17187==
+==17187== 308 bytes in 7 blocks are possibly lost in loss record 436 of 601
+==17187==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==17187==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x5990DFF: sector::SlaveStartInfo::parse(char*, std::string&, std::string&, std::string&) (master_conf.cpp:329)
+==17187==    by 0x599194B: sector::Master::loadSlaveStartInfo(std::string const&, std::set<sector::SlaveStartInfo, sector::SSIComp, std::allocator<sector::SlaveStartInfo> >&) (master_conf.cpp:453)
+==17187==    by 0x59D18DD: sector::Master::init() (master.cpp:139)
+==17187==    by 0x400F99: main (start_master.cpp:35)
+==17187==
+==17187== 455 bytes in 7 blocks are possibly lost in loss record 457 of 601
+==17187==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==17187==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBCFA: std::string::_Rep::_M_clone(std::allocator<char> const&, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECC980: std::string::reserve(unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECCE05: std::string::append(std::string const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x609E8BB: Metadata::revisePath(std::string const&) (meta.cpp:162)
+==17187==    by 0x59919A9: sector::Master::loadSlaveStartInfo(std::string const&, std::set<sector::SlaveStartInfo, sector::SSIComp, std::allocator<sector::SlaveStartInfo> >&) (master_conf.cpp:460)
+==17187==    by 0x59D18DD: sector::Master::init() (master.cpp:139)
+==17187==    by 0x400F99: main (start_master.cpp:35)
+==17187==
+==17187== 507 bytes in 6 blocks are possibly lost in loss record 461 of 601
+==17187==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==17187==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBCFA: std::string::_Rep::_M_clone(std::allocator<char> const&, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECC980: std::string::reserve(unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECCBE2: std::string::append(char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x59955FC: std::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::basic_string<char, std::char_traits<char>, 
+std::allocator<char> > const&, char const*) (basic_string.h:2124)
+==17187==    by 0x59920F0: sector::Master::loadSlaveStartInfo(std::string const&, std::set<sector::SlaveStartInfo, sector::SSIComp, std::allocator<sector::SlaveStartInfo> >&) (master_conf.cpp:478)
+==17187==    by 0x59D18DD: sector::Master::init() (master.cpp:139)
+==17187==    by 0x400F99: main (start_master.cpp:35)
+==17187==
+==17187== 1,152 bytes in 4 blocks are possibly lost in loss record 526 of 601
+==17187==    at 0x4C20B0F: calloc (vg_replace_malloc.c:467)
+==17187==    by 0x40108BE: _dl_allocate_tls (in /lib/ld-2.7.so)
+==17187==    by 0x51396BA: pthread_create@@GLIBC_2.2.5 (in /lib/libpthread-2.7.so)
+==17187==    by 0x59CDAB9: sector::Master::service(void*) (master.cpp:542)
+==17187==    by 0x5139FC6: start_thread (in /lib/libpthread-2.7.so)
+==17187==    by 0x6ACF64C: clone (in /lib/libc-2.7.so)
+==17187==
+==17187== 1,152 bytes in 4 blocks are possibly lost in loss record 527 of 601
+==17187==    at 0x4C20B0F: calloc (vg_replace_malloc.c:467)
+==17187==    by 0x40108BE: _dl_allocate_tls (in /lib/ld-2.7.so)
+==17187==    by 0x51396BA: pthread_create@@GLIBC_2.2.5 (in /lib/libpthread-2.7.so)
+==17187==    by 0x59C85C7: sector::Master::process(void*) (master.cpp:1071)
+==17187==    by 0x5139FC6: start_thread (in /lib/libpthread-2.7.so)
+==17187==    by 0x6ACF64C: clone (in /lib/libc-2.7.so)
+==17187==
+==17187== 3,336 bytes in 1 blocks are possibly lost in loss record 548 of 601
+==17187==    at 0x4C21D86: operator new[](unsigned long) (vg_replace_malloc.c:305)
+==17187==    by 0x632557B: CUnitQueue::init(int const&, int const&, int const&) (queue.cpp:94)
+==17187==    by 0x632630A: CRcvQueue::init(int const&, int const&, int const&, int const&, CChannel const*, CTimer const*) (queue.cpp:944)
+==17187==    by 0x633FF89: CUDTUnited::updateMux(CUDTSocket*, sockaddr const*, int const*) (api.cpp:1432)
+==17187==    by 0x63458C5: CUDTUnited::bind(int, sockaddr const*, int const&) (api.cpp:524)
+==17187==    by 0x634595D: CUDT::bind(int, sockaddr const*, int) (api.cpp:1588)
+==17187==    by 0x6345B91: UDT::bind(int, sockaddr const*, int) (api.cpp:2174)
+==17187==    by 0x60C0C39: sector::UDTTransport::open(int&, bool, bool) (udttransport.cpp:88)
+==17187==    by 0x5C1774E: CGMP::init(int const&) (gmp.cpp:182)
+==17187==    by 0x59D1AD2: sector::Master::init() (master.cpp:153)
+==17187==    by 0x400F99: main (start_master.cpp:35)
+==17187==
+==17187== 4,420 (160 direct, 4,260 indirect) bytes in 1 blocks are definitely lost in loss record 553 of 601
+==17187==    at 0x4C217EB: malloc (vg_replace_malloc.c:236)
+==17187==    by 0x56178F2: CRYPTO_malloc (in /usr/lib/libcrypto.so.0.9.8)
+==17187==    by 0x5694D15: ??? (in /usr/lib/libcrypto.so.0.9.8)
+==17187==    by 0x5698224: ASN1_item_ex_d2i (in /usr/lib/libcrypto.so.0.9.8)
+==17187==    by 0x56982F3: ASN1_item_d2i (in /usr/lib/libcrypto.so.0.9.8)
+==17187==    by 0x53703CD: ssl3_get_server_certificate (in /usr/lib/libssl.so.0.9.8)
+==17187==    by 0x537181C: ssl3_connect (in /usr/lib/libssl.so.0.9.8)
+==17187==    by 0x60C17B7: sector::SSLTransport::connect(char const*, int const&) (ssltransport.cpp:229)
+==17187==    by 0x59D1C10: sector::Master::init() (master.cpp:167)
+==17187==    by 0x400F99: main (start_master.cpp:35)
+==17187==
+==17187== 5,474 bytes in 161 blocks are possibly lost in loss record 558 of 601
+==17187==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==17187==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBE14: ??? (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECBF52: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x5C15539: CGMP::rcvHandler(void*) (gmp.cpp:716)
+==17187==    by 0x5139FC6: start_thread (in /lib/libpthread-2.7.so)
+==17187==    by 0x6ACF64C: clone (in /lib/libc-2.7.so)
+==17187==
+==17187== 5,848 bytes in 172 blocks are possibly lost in loss record 559 of 601
+==17187==    at 0x4C2210E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==17187==    by 0x4ECB450: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECD0ED: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x4ECD2AB: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/libstdc++.so.6.0.10)
+==17187==    by 0x5C15938: CGMP::rcvHandler(void*) (gmp.cpp:779)
+==17187==    by 0x5139FC6: start_thread (in /lib/libpthread-2.7.so)
+==17187==    by 0x6ACF64C: clone (in /lib/libc-2.7.so)
+==17187==
+==17187== LEAK SUMMARY:
+==17187==    definitely lost: 160 bytes in 1 blocks
+==17187==    indirectly lost: 4,260 bytes in 124 blocks
+==17187==      possibly lost: 23,515 bytes in 420 blocks
+==17187==    still reachable: 3,376,523 bytes in 5,214 blocks
+==17187==         suppressed: 0 bytes in 0 blocks
+==17187== Reachable blocks (those to which a pointer was found) are not shown.
+==17187== To see them, rerun with: --leak-check=full --show-reachable=yes
+==17187==
+==17187== For counts of detected and suppressed errors, rerun with: -v
+==17187== Use --track-origins=yes to see where uninitialised values come from
+==17187== ERROR SUMMARY: 15842 errors from 97 contexts (suppressed: 223784 from 49)

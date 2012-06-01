@@ -1,0 +1,17 @@
+Thu Sep 30 16:04:03 2010	Sector slave started.
+Thu Sep 30 16:04:06 2010	opened file /f0 from 131.193.181.153:46294
+
+Thu Sep 30 16:04:06 2010	rendezvous connect source 131.193.181.153 46294 /home/u2/yunhong/personal/sector-sphere/tests/slave1_conf/data//f0
+
+Thu Sep 30 16:04:12 2010	opened file /f4 from 131.193.181.153:59928
+
+Thu Sep 30 16:04:12 2010	rendezvous connect source 131.193.181.153 59928 /home/u2/yunhong/personal/sector-sphere/tests/slave1_conf/data//f4
+
+Thu Sep 30 16:04:12 2010	opened file /f4 from 131.193.181.153:40593
+
+Thu Sep 30 16:04:12 2010	rendezvous connect source 131.193.181.153 40593 /home/u2/yunhong/personal/sector-sphere/tests/slave1_conf/data//f4
+
+Thu Sep 30 16:05:12 2010	opened file /f4 from 131.193.181.153:54484
+
+Thu Sep 30 16:05:12 2010	rendezvous connect source 131.193.181.153 54484 /home/u2/yunhong/personal/sector-sphere/tests/slave1_conf/data//f4
+

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/sector/!svn/ver/711/sector-sphere/branches/stable-2.8/examples/funcs
+END
+randwriter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/sector/!svn/ver/711/sector-sphere/branches/stable-2.8/examples/funcs/randwriter.cpp
+END
+mr_sort.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/sector/!svn/ver/711/sector-sphere/branches/stable-2.8/examples/funcs/mr_sort.cpp
+END
+sort.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/sector/!svn/ver/711/sector-sphere/branches/stable-2.8/examples/funcs/sort.cpp
+END
+mr_word.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/sector/!svn/ver/711/sector-sphere/branches/stable-2.8/examples/funcs/mr_word.cpp
+END
+wordbucket.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/sector/!svn/ver/711/sector-sphere/branches/stable-2.8/examples/funcs/wordbucket.cpp
+END
+sorthash.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/sector/!svn/ver/711/sector-sphere/branches/stable-2.8/examples/funcs/sorthash.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/sector/!svn/ver/711/sector-sphere/branches/stable-2.8/examples/funcs/Makefile
+END
+gen_idx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/sector/!svn/ver/711/sector-sphere/branches/stable-2.8/examples/funcs/gen_idx.cpp
+END

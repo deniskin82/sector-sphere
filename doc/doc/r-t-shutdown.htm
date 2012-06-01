@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Sector/Sphere Manual</title>
+<link rel="stylesheet" href="sectordoc.css" type="text/css" />
+</head>
+
+<body>
+<div class="ref_head">Reference: Tools </div>
+
+<h4 class="func_name"><strong>sector_shutdown</strong></h4>
+<p>The<strong> sector_shutdown  </strong>tool allows to gracefully shutdown part or all of the Sector system. </p>
+
+<div class="code">sector_shutdown<strong><font color="#FFFFFF"> -a | -i id | -d address(ip:port) | -r rack_topo_path</font></strong></div>
+
+<h5>Parameters</h5>
+<dl>
+  <dt><em>-a </em></dt>
+  <dd>shutdown the complete system.</dd>
+  <dt><em>-i id </em></dt>
+  <dd>shutdown the slave node with this id.  </dd>
+  <dt><em>-d address </em></dt>
+  <dd>shutdown the slave node with this ip:port address .</dd>
+  <dt><em>-r rack_topo_path </em></dt>
+  <dd>shutdown a rack. This parameter should be set according to the conf/topology.conf, e.g., /1/1/2. </dd>
+</dl>
+<h5>Description</h5>
+<p>This command can be used to gracefully shutdown the Sector system or part of it (e.g., to decompose some computers or maintanence). This command requires Sector &quot;root&quot; previlige. </p>
+<p><strong>See Also</strong></p>
+<p><strong><a href="t-r-ls.htm"></a></strong></p>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Sector/Sphere Manual</title>
+<link rel="stylesheet" href="sectordoc.css" type="text/css" />
+<style type="text/css">
+<!--
+.style2 {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+
+<body>
+<div class="ref_head">Reference: Classes: Sector </div>
+
+<h4 class="func_name"><strong>shutdown</strong></h4>
+<p>The<strong> shutdown  </strong>function can be used to shutdown part of or the complete Sector system. </p>
+
+<div class="code">
+  int shutdown <br />
+  (<br />
+  &nbsp;&nbsp;&nbsp;const string& <span class="style2">type</span>,<br />
+  &nbsp;&nbsp;&nbsp;const string& <span class="style2">param</span> = &quot;&quot; <br />
+  );</div>
+
+<h5>Parameters</h5>
+
+
+<dl>
+  <dt><i>type</i></dt>
+  <dd>[in] type = &quot;a&quot;: shutdown whole system, no &quot;param&quot; required; type = &quot;d&quot;, shutdown one slave, &quot;param&quot; is the ip:port address; type = &quot;i&quot;, shutdown one slave, &quot;param&quot; is slave ID. </dd>
+  <dt><em>param</em></dt>
+  <dd>[in] shutdown parameter.</dd>
+</dl>
+<h5>Return Value</h5>
+<p>On success, the function returns a unique session key assigned by the Master. If error occurs, a negative value is returned:</p>
+<table width="100%" border="1" cellpadding="2" cellspacing="0" bordercolor="#CCCCCC">
+  <tr>
+    <td width="17%" class="table_headline"><strong>Error Name</strong></td>
+    <td width="83%" class="table_headline"><strong>Comment</strong></td>
+  </tr>
+  <tr>
+    <td>E_INVALID</td>
+    <td>this Sector instance has not been initialized </td>
+  </tr>
+  <tr>
+    <td>E_AUTHORITY</td>
+    <td>no authority to run this command  </td>
+  </tr>
+  <tr>
+    <td>E_CONNECTION</td>
+    <td>connot connect to the master </td>
+  </tr>
+</table>
+<h5>Description</h5>
+<p>The <strong>shutdown</strong> function requires &quot;root&quot; user. </p>
+</body>
+</html>

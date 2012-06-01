@@ -1,0 +1,28 @@
+#masters can set these global configuration to overwrite slave local configuration
+#or the slave may not have local config.
+#KEYs must start with a "*" charactor, in order to differentiate themselves from slave address
+#This is optional. Refer to slave.conf for meaning of keys.
+*MASTER_ADDRESS=localhost:6000
+*DATA_DIRECTORY=/home/u2/yunhong/work/data
+*MAX_DATA_SIZE=102400
+
+yunhong@192.168.136.1 /home/yunhong/sector-sphere
+yunhong@192.168.136.2 /home/yunhong/sector-sphere
+yunhong@192.168.136.3 /home/yunhong/sector-sphere
+
+#the global config applies to all slaves following to it,
+#until a new global config value reset it
+*DATA_DIRECTORY=/home/u2/yunhong/work/data
+*MAX_DATA_SIZE=
+
+yunhong@172.31.0.1 /home/yunhong/sector-sphere
+yunhong@172.31.0.2 /home/yunhong/sector-sphere
+yunhong@172.31.0.3 /home/yunhong/sector-sphere
+
+#for each individual slave, it is also possible to set a parameter directly
+#this examples shows how to start 3 slaves on the same node, each pointing to a independent storage
+#these options on the parameter list overwrites the global config above
+yunhong@10.0.0.1 /home/yunhong/sector-sphere -h /data/store_01
+yunhong@10.0.0.1 /home/yunhong/sector-sphere -h /data/store_02
+yunhong@10.0.0.1 /home/yunhong/sector-sphere -h /data/store_03
+

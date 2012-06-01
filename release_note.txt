@@ -1,0 +1,55 @@
+version 2.7
+
+include module unittest into the source distribution
+new fs client cache
+multiple master address for client.conf
+security server detect&deploy source update without restart
+
+version 2.6
+
+add version check when slaves and clients login
+replication process improved, bug fixes
+improved Sector-FUSE locking, faster concurrent data access
+fix a bug in FSCache that uses wrong timestamps
+automatic slave restart supports multiple slaves on a single node now
+optimized write performance to local node
+fixed a bug that can cause moving legal files to .attic on slave, when conflicts are present
+add ability to control slave configs from master
+improved conflict data store ".attic", will be able to restore in future versions
+SPE result buffer management bug fix; much faster now for large UDF results with few buckets
+faster SPE job schedulling at client
+per-file replication factor, replication distance, and restricted locations
+synchronous sector_cp
+UDF should only generate new files, and must not change existing files
+delete MapReduce intermediate files
+sector_upload support number of replicas, destination IP, and cluster
+more OS-independent code
+support replication distance
+improved sysinfo display
+master will continue to restart lost slaves until LOST_SLAVE_RETRY_TIME
+automatic re-connect for FUSE client on master down/restart
+
+version 2.5
+
+automatic storage re-balancing
+start sector slave when slave node is full
+fix a bug that causes client to hang during concurrent IO from the same client
+log system improved
+fix sector_download bug when local disk is full
+fix udt recvfile bug
+fix reopen on read error bug
+improve write fault tolerance (handle slave node down during a write)
+slave can now restart immediately
+Windows client support
+Improved small write performance
+Improved file update report performance from slave to master (ignore unchanged files)
+mapreduce loadoperator bug fix
+correct the return values (1 -> 0) for Sector tools
+
+version 2.4
+
+support $SECTOR_HOME so that Sector tools can be run anywhere
+master certificate now is an option at the client side
+fix the client read cache memory leak bug
+renamed all Sector tools with a "sector_" prefix to avoid confliction with system commands
+documentation is updated
